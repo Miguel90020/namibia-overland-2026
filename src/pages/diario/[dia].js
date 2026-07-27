@@ -144,7 +144,15 @@ export default function DiaPage({ dia, anterior, proximo }) {
             paddingLeft: '1.5rem',
           }}>
             <p style={{ color: 'var(--grey)', fontStyle: 'italic', fontFamily: 'var(--font-body)', fontSize: '0.9rem' }}>
-              [ Espaço para o resumo do dia — 200 a 300 palavras. Escreve como se fosse um diário. ]
+              [ A chegada a Windhoek ficou marcada logo na fronteira. A passagem demorou cerca de meia hora — mais do que esperávamos — e fica o aviso para quem viaja com menores de 18 anos: o documento de identificação ou certidão de nascimento é obrigatório e será sempre exigido. Sem ele, não se passa.
+
+Depois da fronteira, fomos receber os jipes na AfriCar. O processo de entrega e explicação de cada veículo demorou entre uma a duas horas — é assim e vai ser sempre assim, por isso convém contar com isso no planeamento do dia. Mas o jipe surpreendeu pela positiva: espaçoso, bem equipado, com frigorífico, caixas de armazenamento, machados, pás, mesas e cadeiras dobráveis. Tudo o que é preciso para acampar, fazer fogueiras e piqueniques no meio do nada.
+
+A estrada para Windhoek foi uma agradável surpresa. Larga, bem conservada, com bairros ao longo do caminho que pareciam organizados e quase europeus. A cidade em si confirmou essa impressão — limpa, ordenada, com uma energia inesperada. E logo à beira da estrada, um macaco. O primeiro avistamento, sem qualquer esforço.
+
+O Hotel Thule recebeu-nos bem. Com o inverno namibiano — o nosso verão — as noites são frias, mas os quartos têm ar condicionado com função de aquecimento e água quente. Mais do que suficiente para terminar o dia com conforto.
+
+Primeiro dia na Namíbia. Excelente.]
             </p>
           </div>
         </section>
