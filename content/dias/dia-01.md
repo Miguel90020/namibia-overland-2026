@@ -1,5 +1,5 @@
 ---
-resumo: ""
+resumo: "Teste dia 1"
 foto_capa: ""
 foto_destaque: ""
 video: ""
