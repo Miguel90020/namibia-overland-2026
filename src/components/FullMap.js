@@ -1,4 +1,5 @@
 import { useEffect, useRef } from 'react'
+import { rotaGlobal } from '../data/dias'
 
 export default function FullMap({ dias }) {
   const mapRef = useRef(null)
@@ -24,15 +25,7 @@ export default function FullMap({ dias }) {
         maxZoom: 18,
       }).addTo(map)
 
-      const allCoords = []
-      const seen = new Set()
-
-      dias.forEach(dia => {
-        dia.pontos.forEach(p => {
-          const key = `${p.lat},${p.lon}`
-          if (!seen.has(key)) { allCoords.push([p.lat, p.lon]); seen.add(key) }
-        })
-      })
+      const allCoords = rotaGlobal.map(p => [p.lat, p.lon])
 
       L.default.polyline(allCoords, {
         color: '#C8863A', weight: 2, opacity: 0.7, dashArray: '6, 4',
