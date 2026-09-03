@@ -38,22 +38,35 @@ export default function FullMap({ dias }) {
         color: '#C8863A', weight: 2, opacity: 0.7, dashArray: '6, 4',
       }).addTo(map)
 
-      // Marcadores numerados — todos os 24 dias
-      // line-height para centrar o número (flexbox não funciona em divIcon do Leaflet)
+      // Agrupar dias pelo mesmo alojamento e mostrar números combinados
+      const locais = {}
       dias.forEach(dia => {
         const aloj = dia.pontos.find(p => p.tipo === 'alojamento' || p.tipo === 'chegada' || p.tipo === 'partida')
         if (!aloj) return
+        const key = `${aloj.lat},${aloj.lon}`
+        if (!locais[key]) locais[key] = { lat: aloj.lat, lon: aloj.lon, dias: [] }
+        locais[key].dias.push(dia)
+      })
+
+      Object.values(locais).forEach(local => {
+        const numeros = local.dias.map(d => d.numero).join('-')
+        const fontSize = numeros.length > 4 ? '8px' : numeros.length > 2 ? '9px' : '10px'
+        const width = numeros.length > 4 ? '36px' : '28px'
 
         const icon = L.default.divIcon({
           className: '',
-          html: `<div style="width:28px;height:28px;background:#C8863A;border:2px solid white;border-radius:50%;box-shadow:0 2px 6px rgba(0,0,0,0.3);text-align:center;line-height:24px;font-size:10px;font-weight:700;color:white;font-family:Georgia,serif;">${dia.numero}</div>`,
-          iconSize: [28, 28],
-          iconAnchor: [14, 14],
+          html: `<div style="width:${width};height:28px;background:#C8863A;border:2px solid white;border-radius:14px;box-shadow:0 2px 6px rgba(0,0,0,0.3);text-align:center;line-height:24px;font-size:${fontSize};font-weight:700;color:white;font-family:Georgia,serif;padding:0 4px;">${numeros}</div>`,
+          iconSize: [parseInt(width), 28],
+          iconAnchor: [parseInt(width) / 2, 14],
         })
 
-        L.default.marker([aloj.lat, aloj.lon], { icon })
+        const popupContent = local.dias.map(d =>
+          `<strong style="font-family:serif;font-size:13px">Dia ${d.numero} · ${d.data}</strong><br><span style="color:#8A7A6A;font-size:12px">${d.titulo}</span>`
+        ).join('<hr style="margin:6px 0;border-color:#D4C9B8">')
+
+        L.default.marker([local.lat, local.lon], { icon })
           .addTo(map)
-          .bindPopup(`<strong style="font-family:serif;font-size:14px">Dia ${dia.numero} · ${dia.data}</strong><br><span style="color:#8A7A6A">${dia.titulo}</span>`)
+          .bindPopup(popupContent)
       })
 
       map.fitBounds(L.default.latLngBounds(allCoords), { padding: [40, 40] })
