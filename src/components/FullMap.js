@@ -50,14 +50,15 @@ export default function FullMap({ dias }) {
 
       Object.values(locais).forEach(local => {
         const numeros = local.dias.map(d => d.numero).join('-')
-        const fontSize = numeros.length > 4 ? '8px' : numeros.length > 2 ? '9px' : '10px'
-        const width = numeros.length > 4 ? '36px' : '28px'
+        const charCount = numeros.length
+        const fontSize = charCount >= 5 ? '7px' : charCount >= 3 ? '8px' : '10px'
+        const width = charCount >= 5 ? 42 : charCount >= 3 ? 36 : 28
 
         const icon = L.default.divIcon({
           className: '',
-          html: `<div style="width:${width};height:28px;background:#C8863A;border:2px solid white;border-radius:14px;box-shadow:0 2px 6px rgba(0,0,0,0.3);text-align:center;line-height:24px;font-size:${fontSize};font-weight:700;color:white;font-family:Georgia,serif;padding:0 4px;">${numeros}</div>`,
-          iconSize: [parseInt(width), 28],
-          iconAnchor: [parseInt(width) / 2, 14],
+          html: `<div style="width:${width}px;height:28px;background:#C8863A;border:2px solid white;border-radius:14px;box-shadow:0 2px 6px rgba(0,0,0,0.3);text-align:center;line-height:24px;font-size:${fontSize};font-weight:700;color:white;font-family:Georgia,serif;padding:0 6px;white-space:nowrap;">${numeros}</div>`,
+          iconSize: [width, 28],
+          iconAnchor: [width / 2, 14],
         })
 
         const popupContent = local.dias.map(d =>
