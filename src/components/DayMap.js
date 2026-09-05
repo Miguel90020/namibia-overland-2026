@@ -47,7 +47,11 @@ export default function DayMap({ pontos, height = 400 }) {
           .bindPopup(`<strong style="font-family:serif">${p.nome}</strong>`)
       })
 
-      map.fitBounds(L.default.latLngBounds(coords), { padding: [40, 40] })
+      if (coords.length === 1) {
+        map.setView(coords[0], 11)
+      } else {
+        map.fitBounds(L.default.latLngBounds(coords), { padding: [40, 40] })
+      }
     })
 
     return () => { if (instanceRef.current) { instanceRef.current.remove(); instanceRef.current = null } }

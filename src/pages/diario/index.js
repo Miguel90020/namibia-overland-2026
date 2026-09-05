@@ -7,15 +7,15 @@ export default function Diario() {
   return (
     <>
       <Head>
-        <title>Diário de Viagem — Namibia Overland 2026</title>
-        <meta name="description" content="24 dias de expedição pela Namíbia. Um diário completo, dia a dia." />
+        <title>Travel Diary — Namibia Overland 2026</title>
+        <meta name="description" content="24 days of expedition through Namibia. A complete diary, day by day." />
       </Head>
       <Nav />
       <main style={{ maxWidth: 'var(--max-width)', margin: '0 auto', padding: '4rem 2rem' }}>
         <header style={{ textAlign: 'center', marginBottom: '5rem' }}>
-          <p style={{ fontSize: '0.75rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: 'var(--ochre)', marginBottom: '1rem' }}>Julho · Agosto 2026</p>
-          <h1 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(2rem, 4vw, 3rem)', color: 'var(--earth)', marginBottom: '1rem' }}>Diário de Viagem</h1>
-          <p style={{ color: 'var(--grey)', maxWidth: '480px', margin: '0 auto' }}>24 dias. Uma entrada por dia. A história da viagem tal como aconteceu.</p>
+          <p style={{ fontSize: '0.75rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: 'var(--ochre)', marginBottom: '1rem' }}>July · August 2026</p>
+          <h1 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(2rem, 4vw, 3rem)', color: 'var(--earth)', marginBottom: '1rem' }}>Travel Diary</h1>
+          <p style={{ color: 'var(--grey)', maxWidth: '480px', margin: '0 auto' }}>24 days. One entry per day. The story of the journey as it happened.</p>
         </header>
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(320px, 1fr))', gap: '2px' }}>
           {dias.map(dia => (
@@ -25,7 +25,7 @@ export default function Diario() {
                 <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, rgba(26,18,8,0.85) 0%, rgba(26,18,8,0.1) 60%)' }} />
                 <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, padding: '1.5rem' }}>
                   <p style={{ fontSize: '0.7rem', letterSpacing: '0.15em', textTransform: 'uppercase', color: 'var(--ochre)', marginBottom: '0.4rem' }}>
-                    Dia {dia.numero} · {dia.data}
+                    Day {dia.numero} · {dia.data}
                   </p>
                   <h2 style={{ fontFamily: 'var(--font-display)', fontSize: '1.2rem', color: 'var(--white)', lineHeight: 1.2, marginBottom: '0.3rem' }}>{dia.titulo}</h2>
                   <p style={{ fontSize: '0.8rem', color: 'var(--sand)', fontStyle: 'italic' }}>{dia.subtitulo}</p>
