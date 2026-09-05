@@ -54,7 +54,7 @@ export const dias = [
       { nome: "BuellsPort", lat: -24.14885, lon: 16.362883, tipo: "alojamento" },
     ]},
   { numero: 9, data: "1 ago", titulo: "Dia em BuellsPort", subtitulo: "Silêncio no coração do Namib", regiao: "Namib", destino: "BuellsPort", amanha: "Sossusvlei", km: 0,
-    pontos: [{ nome: "BuellsPort", lat: -24.146745, lon: 16.359911, tipo: "alojamento" }]},
+    pontos: [{ nome: "BuellsPort", lat: -24.14885, lon: 16.362883, tipo: "alojamento" }]},
   { numero: 10, data: "2 ago", titulo: "Sossusvlei & Deadvlei", subtitulo: "As dunas mais altas do mundo", regiao: "Sossusvlei", destino: "Sossus Dune Lodge", amanha: "Dune 45 e travessia para Swakopmund", km: 200,
     pontos: [
       { nome: "BuellsPort", lat: -24.14885, lon: 16.362883, tipo: "partida" },

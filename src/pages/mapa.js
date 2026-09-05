@@ -19,6 +19,15 @@ export default function MapaGlobal() {
           <h1 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(2rem, 4vw, 3rem)', color: 'var(--earth)' }}>Mapa da Expedição</h1>
         </header>
         <FullMap dias={dias} />
+        <p style={{
+          marginTop: '1rem',
+          fontSize: '0.78rem',
+          color: 'var(--grey)',
+          fontStyle: 'italic',
+          textAlign: 'center',
+        }}>
+          Each marker represents a night's stay. The label shown reflects the day's journey, not necessarily the accommodation name. For full details of each day, visit the diary.
+        </p>
       </main>
     </>
   )
