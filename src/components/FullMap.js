@@ -34,7 +34,9 @@ export default function FullMap({ dias }) {
       // Agrupar dias pelo mesmo alojamento e mostrar números combinados
       const locais = {}
       dias.forEach(dia => {
-        const aloj = dia.pontos.find(p => p.tipo === 'alojamento' || p.tipo === 'chegada' || p.tipo === 'partida')
+        const aloj = dia.pontos.find(p => p.tipo === 'alojamento') ||
+                     dia.pontos.find(p => p.tipo === 'chegada') ||
+                     dia.pontos.find(p => p.tipo === 'partida')
         if (!aloj) return
         const key = `${aloj.lat},${aloj.lon}`
         if (!locais[key]) locais[key] = { lat: aloj.lat, lon: aloj.lon, dias: [] }
