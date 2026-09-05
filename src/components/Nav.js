@@ -15,7 +15,7 @@ export default function Nav() {
           Namibia Overland 2026
         </Link>
         <div style={{ display: 'flex', gap: '2rem' }}>
-          {[['Diário', '/diario'], ['Mapa', '/mapa'], ['Sobre', '/sobre']].map(([label, href]) => (
+          {[['Diary', '/diario'], ['Map', '/mapa'], ['About', '/sobre']].map(([label, href]) => (
             <Link key={href} href={href} style={{
               fontSize: '0.85rem', letterSpacing: '0.08em',
               textTransform: 'uppercase', color: 'var(--grey)',

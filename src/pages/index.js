@@ -7,9 +7,14 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Namibia Overland 2026 — Uma travessia em família</title>
-        <meta name="description" content="24 dias, 4000 km, 2 jipes. Uma travessia em família do Kalahari ao Etosha." />
+        <title>Namibia Overland 2026 — A family expedition</title>
+        <meta name="description" content="24 days, 4000 km, 2 jeeps. A family crossing from the Kalahari to Etosha." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta property="og:title" content="Namibia Overland 2026" />
+        <meta property="og:description" content="24 days, 4000 km, 2 jeeps. A family crossing from the Kalahari to Etosha." />
+        <meta property="og:image" content="/images/hero.jpg" />
+        <meta property="og:type" content="website" />
+        <link rel="icon" href="/favicon.svg" />
       </Head>
       <Nav />
       <section style={{
@@ -21,21 +26,21 @@ export default function Home() {
         <div style={{ position: 'absolute', inset: 0, background: 'url(/images/hero.jpg) center/cover no-repeat', opacity: 0.4 }} />
         <div style={{ position: 'relative', zIndex: 1, maxWidth: '700px' }}>
           <p style={{ fontSize: '0.8rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: 'var(--ochre)', marginBottom: '1.5rem' }}>
-            Julho · Agosto 2026
+            July · August 2026
           </p>
           <h1 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(2.5rem, 6vw, 4.5rem)', color: 'var(--white)', lineHeight: 1.1, marginBottom: '1.5rem' }}>
             Namibia Overland<br /><em>2026</em>
           </h1>
           <p style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(1rem, 2vw, 1.3rem)', color: 'var(--sand)', fontStyle: 'italic', marginBottom: '3rem' }}>
-            Uma travessia em família do Kalahari ao Etosha
+            A family crossing from the Kalahari to Etosha
           </p>
           <div style={{ display: 'flex', gap: '2.5rem', justifyContent: 'center', flexWrap: 'wrap', marginBottom: '3rem' }}>
             {[
-              { n: estatisticas.dias, label: 'dias' },
-              { n: `${estatisticas.km.toLocaleString()} km`, label: 'percorridos' },
-              { n: estatisticas.jipes, label: 'jipes' },
-              { n: estatisticas.alojamentos, label: 'alojamentos' },
-              { n: estatisticas.viajantes, label: 'viajantes' },
+              { n: estatisticas.dias, label: 'days' },
+              { n: `${estatisticas.km.toLocaleString()} km`, label: 'driven' },
+              { n: estatisticas.jipes, label: 'jeeps' },
+              { n: estatisticas.alojamentos, label: 'accommodations' },
+              { n: estatisticas.viajantes, label: 'travellers' },
             ].map(s => (
               <div key={s.label} style={{ textAlign: 'center' }}>
                 <div style={{ fontFamily: 'var(--font-display)', fontSize: '2rem', color: 'var(--ochre)', lineHeight: 1 }}>{s.n}</div>
@@ -48,19 +53,19 @@ export default function Home() {
             color: 'var(--white)', fontSize: '0.85rem', letterSpacing: '0.12em',
             textTransform: 'uppercase', borderRadius: '2px',
           }}>
-            Começar a Viagem
+            Begin the Journey
           </Link>
         </div>
       </section>
       <section style={{ maxWidth: 'var(--content-width)', margin: '0 auto', padding: '8rem 2rem', textAlign: 'center' }}>
         <h2 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(1.8rem, 3vw, 2.5rem)', marginBottom: '1.5rem', color: 'var(--earth)' }}>
-          Onde estivemos. O que vivemos.<br /><em>Porque valeu a pena.</em>
+          Where we went. What we lived.<br /><em>Why it was worth it.</em>
         </h2>
         <p style={{ color: 'var(--grey)', fontSize: '1.05rem', maxWidth: '560px', margin: '0 auto 2.5rem', lineHeight: 2 }}>
-          Do Kalahari às dunas de Sossusvlei, de Lüderitz ao coração de Etosha — 24 dias de expedição em família pelo sudoeste africano.
+          From the Kalahari to the dunes of Sossusvlei, from Lüderitz to the heart of Etosha — 24 days of family expedition through southwest Africa.
         </p>
         <Link href="/diario" style={{ fontSize: '0.85rem', letterSpacing: '0.1em', textTransform: 'uppercase', color: 'var(--ochre)', borderBottom: '1px solid var(--ochre)', paddingBottom: '2px' }}>
-          Ver o Diário →
+          Read the Diary →
         </Link>
       </section>
     </>
