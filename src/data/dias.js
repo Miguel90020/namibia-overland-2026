@@ -1,12 +1,12 @@
 export const dias = [
-  { numero: 1, data: "24 jul", titulo: "Chegada a Windhoek", subtitulo: "O início da aventura", regiao: "Windhoek", destino: "Hotel Thule, Windhoek", amanha: "Kalahari Anib Lodge", km: 0,
+  { numero: 1, data: "24 jul", titulo: "Arrival in Windhoek", subtitulo: "The beginning of the adventure", regiao: "Windhoek", destino: "Hotel Thule, Windhoek", amanha: "Kalahari Anib Lodge", km: 0,
     pontos: [
       { nome: "Hosea Kutako Airport", lat: -22.487344, lon: 17.463793, tipo: "partida" },
       { nome: "AfriCar", lat: -22.534778, lon: 17.074127, tipo: "ponto" },
       { nome: "Hotel Thule", lat: -22.552328, lon: 17.098131, tipo: "alojamento" },
       { nome: "Joe's Beerhouse", lat: -22.550906, lon: 17.090342, tipo: "ponto" },
     ]},
-  { numero: 2, data: "25 jul", titulo: "Windhoek → Kalahari", subtitulo: "Primeiros quilómetros de África", regiao: "Kalahari", destino: "Kalahari Anib Lodge", amanha: "Dia de descanso no Kalahari", km: 270,
+  { numero: 2, data: "25 jul", titulo: "Windhoek → Kalahari", subtitulo: "First kilometres of Africa", regiao: "Kalahari", destino: "Kalahari Anib Lodge", amanha: "Rest day in the Kalahari", km: 270,
     pontos: [
       { nome: "Hotel Thule", lat: -22.552328, lon: 17.098131, tipo: "partida" },
       { nome: "Maerua SPAR", lat: -22.584917, lon: 17.091877, tipo: "ponto" },
@@ -14,9 +14,9 @@ export const dias = [
       { nome: "Rehoboth Museum", lat: -23.324004, lon: 17.072416, tipo: "ponto" },
       { nome: "Kalahari Anib", lat: -24.43, lon: 18.100833, tipo: "alojamento" },
     ]},
-  { numero: 3, data: "26 jul", titulo: "Dia no Kalahari", subtitulo: "Descanso e vida selvagem", regiao: "Kalahari", destino: "Kalahari Anib Lodge", amanha: "Fish River Canyon via Keetmanshoop", km: 0,
+  { numero: 3, data: "26 jul", titulo: "Day in the Kalahari", subtitulo: "Rest and wildlife", regiao: "Kalahari", destino: "Kalahari Anib Lodge", amanha: "Fish River Canyon via Keetmanshoop", km: 0,
     pontos: [{ nome: "Kalahari Anib", lat: -24.43, lon: 18.100833, tipo: "alojamento" }]},
-  { numero: 4, data: "27 jul", titulo: "Kalahari → Fish River Canyon", subtitulo: "O maior canhão de África", regiao: "Sul da Namíbia", destino: "Fish River Lodge", amanha: "Dia no Fish River Canyon", km: 380,
+  { numero: 4, data: "27 jul", titulo: "Kalahari → Fish River Canyon", subtitulo: "The largest canyon in Africa", regiao: "Southern Namibia", destino: "Fish River Lodge", amanha: "Day at Fish River Canyon", km: 380,
     pontos: [
       { nome: "Kalahari Anib", lat: -24.43, lon: 18.100833, tipo: "partida" },
       { nome: "Mariental", lat: -24.628364, lon: 17.954352, tipo: "ponto" },
@@ -26,16 +26,16 @@ export const dias = [
       { nome: "D463 Turn", lat: -26.783986, lon: 17.560854, tipo: "ponto" },
       { nome: "Fish River Lodge", lat: -27.527328, lon: 17.536888, tipo: "alojamento" },
     ]},
-  { numero: 5, data: "28 jul", titulo: "Fish River Canyon", subtitulo: "160 km de grandeza geológica", regiao: "Fish River Canyon", destino: "Fish River Lodge", amanha: "Aus e os cavalos selvagens", km: 20,
+  { numero: 5, data: "28 jul", titulo: "Fish River Canyon", subtitulo: "160 km of geological grandeur", regiao: "Fish River Canyon", destino: "Fish River Lodge", amanha: "Aus and the wild horses", km: 20,
     pontos: [{ nome: "Fish River Lodge", lat: -27.527328, lon: 17.536888, tipo: "alojamento" }]},
-  { numero: 6, data: "29 jul", titulo: "Fish River → Aus", subtitulo: "Pelos cavalos selvagens do Namib", regiao: "Aus", destino: "Desert Horse Inn", amanha: "Lüderitz e Kolmanskop", km: 300,
+  { numero: 6, data: "29 jul", titulo: "Fish River → Aus", subtitulo: "In search of the wild horses of the Namib", regiao: "Aus", destino: "Desert Horse Inn", amanha: "Lüderitz and Kolmanskop", km: 300,
     pontos: [
       { nome: "Fish River Lodge", lat: -27.527328, lon: 17.536888, tipo: "partida" },
       { nome: "Goageb", lat: -26.7504, lon: 17.2248, tipo: "ponto" },
       { nome: "Namib Garage", lat: -26.66642, lon: 16.26089, tipo: "ponto" },
       { nome: "Desert Horse Inn", lat: -26.652114, lon: 16.244645, tipo: "alojamento" },
     ]},
-  { numero: 7, data: "30 jul", titulo: "Lüderitz & Kolmanskop", subtitulo: "A cidade fantasma engolida pela areia", regiao: "Lüderitz", destino: "Desert Horse Inn", amanha: "Atravessar o Namib interior", km: 180,
+  { numero: 7, data: "30 jul", titulo: "Lüderitz & Kolmanskop", subtitulo: "The ghost town swallowed by sand", regiao: "Lüderitz", destino: "Desert Horse Inn", amanha: "Crossing the inner Namib", km: 180,
     pontos: [
       { nome: "Desert Horse Inn", lat: -26.652114, lon: 16.244645, tipo: "partida" },
       { nome: "Garub Horses", lat: -26.6042015, lon: 16.0617353, tipo: "ponto" },
@@ -45,7 +45,7 @@ export const dias = [
       { nome: "Shark Island", lat: -26.6351, lon: 15.1513, tipo: "ponto" },
       { nome: "Diaz Point", lat: -26.6353504, lon: 15.0901304, tipo: "ponto" },
     ]},
-  { numero: 8, data: "31 jul", titulo: "Aus → BuellsPort", subtitulo: "Duwisib Castle e o Namib profundo", regiao: "Namib Interior", destino: "BuellsPort", amanha: "Dia de descanso", km: 320,
+  { numero: 8, data: "31 jul", titulo: "Aus → BuellsPort", subtitulo: "Duwisib Castle and the deep Namib", regiao: "Inner Namib", destino: "BuellsPort", amanha: "Rest day", km: 320,
     pontos: [
       { nome: "Desert Horse Inn", lat: -26.652114, lon: 16.244645, tipo: "partida" },
       { nome: "Helmeringhausen", lat: -25.88913, lon: 16.821399, tipo: "ponto" },
@@ -53,9 +53,9 @@ export const dias = [
       { nome: "Duwisib Castle", lat: -25.257071, lon: 16.541282, tipo: "ponto" },
       { nome: "BuellsPort", lat: -24.14885, lon: 16.362883, tipo: "alojamento" },
     ]},
-  { numero: 9, data: "1 ago", titulo: "Dia em BuellsPort", subtitulo: "Silêncio no coração do Namib", regiao: "Namib", destino: "BuellsPort", amanha: "Sossusvlei", km: 0,
+  { numero: 9, data: "1 ago", titulo: "Day at BuellsPort", subtitulo: "Silence at the heart of the Namib", regiao: "Namib", destino: "BuellsPort", amanha: "Sossusvlei", km: 0,
     pontos: [{ nome: "BuellsPort", lat: -24.14885, lon: 16.362883, tipo: "alojamento" }]},
-  { numero: 10, data: "2 ago", titulo: "Sossusvlei & Deadvlei", subtitulo: "As dunas mais altas do mundo", regiao: "Sossusvlei", destino: "Sossus Dune Lodge", amanha: "Dune 45 e travessia para Swakopmund", km: 200,
+  { numero: 10, data: "2 ago", titulo: "Sossusvlei & Deadvlei", subtitulo: "The highest dunes in the world", regiao: "Sossusvlei", destino: "Sossus Dune Lodge", amanha: "Dune 45 and crossing to Swakopmund", km: 200,
     pontos: [
       { nome: "BuellsPort", lat: -24.14885, lon: 16.362883, tipo: "partida" },
       { nome: "Sossus Oasis", lat: -24.489795, lon: 15.802434, tipo: "ponto" },
@@ -66,7 +66,7 @@ export const dias = [
       { nome: "Deadvlei", lat: -24.747022, lon: 15.290956, tipo: "ponto" },
       { nome: "Sossusvlei", lat: -24.741259, lon: 15.288165, tipo: "ponto" },
     ]},
-  { numero: 11, data: "3 ago", titulo: "Sossusvlei → Swakopmund", subtitulo: "Dune 45, Solitaire e o Atlântico", regiao: "Costa Atlântica", destino: "Jetty Self Catering, Swakopmund", amanha: "Dia em Swakopmund", km: 340,
+  { numero: 11, data: "3 ago", titulo: "Sossusvlei → Swakopmund", subtitulo: "Dune 45, Solitaire and the Atlantic", regiao: "Atlantic Coast", destino: "Jetty Self Catering, Swakopmund", amanha: "Day in Swakopmund", km: 340,
     pontos: [
       { nome: "Sossus Dune Lodge", lat: -24.506602, lon: 15.788957, tipo: "partida" },
       { nome: "Dune 45", lat: -24.72306, lon: 15.470979, tipo: "ponto" },
@@ -77,7 +77,7 @@ export const dias = [
       { nome: "Walvis Bay Lagoon", lat: -22.95831, lon: 14.482428, tipo: "ponto" },
       { nome: "Jetty Self Catering", lat: -22.681711, lon: 14.522839, tipo: "alojamento" },
     ]},
-  { numero: 12, data: "4 ago", titulo: "Swakopmund & Walvis Bay", subtitulo: "Flamingos, cais e paisagem lunar", regiao: "Swakopmund", destino: "Jetty Self Catering, Swakopmund", amanha: "Spitzkoppe via costa norte", km: 80,
+  { numero: 12, data: "4 ago", titulo: "Swakopmund & Walvis Bay", subtitulo: "Flamingos, the jetty and lunar landscape", regiao: "Swakopmund", destino: "Jetty Self Catering, Swakopmund", amanha: "Spitzkoppe via the northern coast", km: 80,
     pontos: [
       { nome: "Jetty Self Catering", lat: -22.681711, lon: 14.522839, tipo: "partida" },
       { nome: "Walvis Bay Waterfront", lat: -22.958098, lon: 14.482817, tipo: "ponto" },
@@ -86,7 +86,7 @@ export const dias = [
       { nome: "Welwitschia Plain", lat: -22.66917, lon: 15.02822, tipo: "ponto" },
       { nome: "Swakopmund Jetty", lat: -22.68069, lon: 14.52191, tipo: "ponto" },
     ]},
-  { numero: 13, data: "5 ago", titulo: "Swakopmund → Spitzkoppe", subtitulo: "O Matterhorn da Namíbia", regiao: "Spitzkoppe", destino: "Spitzkoppe Cabin Camp", amanha: "Dia no Spitzkoppe", km: 230,
+  { numero: 13, data: "5 ago", titulo: "Swakopmund → Spitzkoppe", subtitulo: "The Matterhorn of Namibia", regiao: "Spitzkoppe", destino: "Spitzkoppe Cabin Camp", amanha: "Day at Spitzkoppe", km: 230,
     pontos: [
       { nome: "Jetty Self Catering", lat: -22.681711, lon: 14.522839, tipo: "partida" },
       { nome: "Zeila Shipwreck", lat: -22.239348, lon: 14.35599, tipo: "ponto" },
@@ -95,13 +95,13 @@ export const dias = [
       { nome: "Spitzkoppe View", lat: -21.8921759, lon: 15.197428, tipo: "ponto" },
       { nome: "Spitzkoppe Cabin Camp", lat: -21.851468, lon: 15.194985, tipo: "alojamento" },
     ]},
-  { numero: 14, data: "6 ago", titulo: "Dia no Spitzkoppe", subtitulo: "Arte rupestre e arco natural", regiao: "Spitzkoppe", destino: "Spitzkoppe Cabin Camp", amanha: "Brandberg e Twyfelfontein", km: 15,
+  { numero: 14, data: "6 ago", titulo: "Day at Spitzkoppe", subtitulo: "Rock art and natural arch", regiao: "Spitzkoppe", destino: "Spitzkoppe Cabin Camp", amanha: "Brandberg and Twyfelfontein", km: 15,
     pontos: [
       { nome: "Spitzkoppe Cabin Camp", lat: -21.851468, lon: 15.194985, tipo: "partida" },
       { nome: "Rock Art", lat: -21.8277689, lon: 15.215, tipo: "ponto" },
       { nome: "Natural Arch", lat: -21.846392, lon: 15.183376, tipo: "ponto" },
     ]},
-  { numero: 15, data: "7 ago", titulo: "Spitzkoppe → Huab Lodge", subtitulo: "White Lady e o Brandberg", regiao: "Damaraland Norte", destino: "Huab Lodge", amanha: "Twyfelfontein e Otjikandero", km: 310,
+  { numero: 15, data: "7 ago", titulo: "Spitzkoppe → Huab Lodge", subtitulo: "White Lady and the Brandberg", regiao: "Northern Damaraland", destino: "Huab Lodge", amanha: "Twyfelfontein and Otjikandero", km: 310,
     pontos: [
       { nome: "Spitzkoppe Cabin Camp", lat: -21.851468, lon: 15.194985, tipo: "partida" },
       { nome: "Uis Fuel", lat: -21.219235, lon: 14.869303, tipo: "ponto" },
@@ -110,14 +110,14 @@ export const dias = [
       { nome: "D2670 Huab", lat: -20.028019, lon: 14.998836, tipo: "ponto" },
       { nome: "Huab Lodge", lat: -19.972265, lon: 14.761268, tipo: "alojamento" },
     ]},
-  { numero: 16, data: "8 ago", titulo: "Twyfelfontein & Otjikandero", subtitulo: "Arte rupestre e rinocerontes negros", regiao: "Damaraland", destino: "Huab Lodge", amanha: "Etosha — porta de Andersson", km: 120,
+  { numero: 16, data: "8 ago", titulo: "Twyfelfontein & Otjikandero", subtitulo: "Rock art and black rhinos", regiao: "Damaraland", destino: "Huab Lodge", amanha: "Etosha — Andersson Gate", km: 120,
     pontos: [
       { nome: "Huab Lodge", lat: -19.972265, lon: 14.761268, tipo: "partida" },
       { nome: "Otjikandero", lat: -19.669012, lon: 15.022077, tipo: "ponto" },
       { nome: "Damara Museum", lat: -20.52925, lon: 14.397619, tipo: "ponto" },
       { nome: "Twyfelfontein", lat: -20.590401, lon: 14.372018, tipo: "ponto" },
     ]},
-  { numero: 17, data: "9 ago", titulo: "Huab → Etosha", subtitulo: "Vingerklip e a entrada em Etosha", regiao: "Etosha", destino: "Okaukuejo Camp", amanha: "Safari matinal em Etosha", km: 280,
+  { numero: 17, data: "9 ago", titulo: "Huab → Etosha", subtitulo: "Vingerklip and the gateway to Etosha", regiao: "Etosha", destino: "Okaukuejo Camp", amanha: "Morning safari in Etosha", km: 280,
     pontos: [
       { nome: "Huab Lodge", lat: -19.972265, lon: 14.761268, tipo: "partida" },
       { nome: "Ugab Terraces", lat: -20.3202208, lon: 15.4445928, tipo: "ponto" },
@@ -127,7 +127,7 @@ export const dias = [
       { nome: "Etosha Trading Post", lat: -19.387338, lon: 15.935745, tipo: "ponto" },
       { nome: "Okaukuejo", lat: -19.179126, lon: 15.919134, tipo: "alojamento" },
     ]},
-  { numero: 18, data: "10 ago", titulo: "Etosha — Safari Okaukuejo", subtitulo: "Elefantes, leões e o grande bebedouro", regiao: "Etosha", destino: "Okaukuejo Camp", amanha: "Halali e Namutoni", km: 80,
+  { numero: 18, data: "10 ago", titulo: "Etosha — Okaukuejo Safari", subtitulo: "Elephants, lions and the great waterhole", regiao: "Etosha", destino: "Okaukuejo Camp", amanha: "Halali and Namutoni", km: 80,
     pontos: [
       { nome: "Okaukuejo", lat: -19.179126, lon: 15.919134, tipo: "partida" },
       { nome: "Nebrownii", lat: -19.162898, lon: 15.995508, tipo: "ponto" },
@@ -136,7 +136,7 @@ export const dias = [
       { nome: "Aus Waterhole", lat: -19.205186, lon: 16.192573, tipo: "ponto" },
       { nome: "Okondeka", lat: -18.994319, lon: 15.866492, tipo: "ponto" },
     ]},
-  { numero: 19, data: "11 ago", titulo: "Etosha — Halali & Namutoni", subtitulo: "Fort Namutoni e o leste de Etosha", regiao: "Etosha", destino: "Mushara Lodge", amanha: "Tsumeb e Waterberg", km: 120,
+  { numero: 19, data: "11 ago", titulo: "Etosha — Halali & Namutoni", subtitulo: "Fort Namutoni and eastern Etosha", regiao: "Etosha", destino: "Mushara Lodge", amanha: "Tsumeb and Waterberg", km: 120,
     pontos: [
       { nome: "Okaukuejo", lat: -19.179126, lon: 15.919134, tipo: "partida" },
       { nome: "Halali", lat: -19.034975, lon: 16.471254, tipo: "ponto" },
@@ -145,7 +145,7 @@ export const dias = [
       { nome: "Namutoni Gate", lat: -18.8036043, lon: 17.0419048, tipo: "ponto" },
       { nome: "Mushara Lodge", lat: -18.812028, lon: 17.119403, tipo: "alojamento" },
     ]},
-  { numero: 20, data: "12 ago", titulo: "Mushara → Waterberg", subtitulo: "Hoba Meteorite e o planalto de Waterberg", regiao: "Waterberg", destino: "Waterberg Lodge", amanha: "Dia no Waterberg", km: 290,
+  { numero: 20, data: "12 ago", titulo: "Mushara → Waterberg", subtitulo: "Hoba Meteorite and the Waterberg plateau", regiao: "Waterberg", destino: "Waterberg Lodge", amanha: "Day at Waterberg", km: 290,
     pontos: [
       { nome: "Mushara Lodge", lat: -18.812028, lon: 17.119403, tipo: "partida" },
       { nome: "Otjikoto Lake", lat: -19.19445, lon: 17.550755, tipo: "ponto" },
@@ -153,16 +153,16 @@ export const dias = [
       { nome: "Hoba Meteorite", lat: -19.59308, lon: 17.934535, tipo: "ponto" },
       { nome: "Waterberg Lodge", lat: -20.483807, lon: 17.299432, tipo: "alojamento" },
     ]},
-  { numero: 21, data: "13 ago", titulo: "Dia no Waterberg", subtitulo: "O planalto vermelho", regiao: "Waterberg", destino: "Waterberg Lodge", amanha: "Regresso ao sul — Daan Viljoen", km: 0,
+  { numero: 21, data: "13 ago", titulo: "Day at Waterberg", subtitulo: "The red plateau", regiao: "Waterberg", destino: "Waterberg Lodge", amanha: "Heading south — Daan Viljoen", km: 0,
     pontos: [{ nome: "Waterberg Lodge", lat: -20.483807, lon: 17.299432, tipo: "alojamento" }]},
-  { numero: 22, data: "14 ago", titulo: "Waterberg → Daan Viljoen", subtitulo: "Os entalhadores de madeira de Okahandja", regiao: "Windhoek", destino: "Daan Viljoen Game Reserve", amanha: "Último dia em Windhoek", km: 260,
+  { numero: 22, data: "14 ago", titulo: "Waterberg → Daan Viljoen", subtitulo: "The wood carvers of Okahandja", regiao: "Windhoek", destino: "Daan Viljoen Game Reserve", amanha: "Last day in Windhoek", km: 260,
     pontos: [
       { nome: "Waterberg Lodge", lat: -20.483807, lon: 17.299432, tipo: "partida" },
       { nome: "Otjiwarongo Fuel", lat: -20.453829, lon: 16.652956, tipo: "ponto" },
       { nome: "Woodcarvers Okahandja", lat: -21.974279, lon: 16.91188, tipo: "ponto" },
       { nome: "Daan Viljoen", lat: -22.537778, lon: 16.945697, tipo: "alojamento" },
     ]},
-  { numero: 23, data: "15 ago", titulo: "Windhoek — Cidade Final", subtitulo: "Christuskirche, mercados e despedidas", regiao: "Windhoek", destino: "Daan Viljoen Game Reserve", amanha: "Regresso a casa", km: 40,
+  { numero: 23, data: "15 ago", titulo: "Windhoek — Final City", subtitulo: "Christuskirche, markets and farewells", regiao: "Windhoek", destino: "Daan Viljoen Game Reserve", amanha: "Journey home", km: 40,
     pontos: [
       { nome: "Daan Viljoen", lat: -22.537778, lon: 16.945697, tipo: "partida" },
       { nome: "Christuskirche", lat: -22.567718, lon: 17.087082, tipo: "ponto" },
@@ -171,7 +171,7 @@ export const dias = [
       { nome: "Craft Centre", lat: -22.572211, lon: 17.083895, tipo: "ponto" },
       { nome: "Maerua SUPERSPAR", lat: -22.584793, lon: 17.091794, tipo: "ponto" },
     ]},
-  { numero: 24, data: "16 ago", titulo: "Regresso a Casa", subtitulo: "24 dias, 4000 km, memórias para sempre", regiao: "Windhoek", destino: "Hosea Kutako Airport", amanha: null, km: 45,
+  { numero: 24, data: "16 ago", titulo: "Journey Home", subtitulo: "24 days, 4000 km, memories forever", regiao: "Windhoek", destino: "Hosea Kutako Airport", amanha: null, km: 45,
     pontos: [
       { nome: "Daan Viljoen", lat: -22.537778, lon: 16.945697, tipo: "partida" },
       { nome: "AfriCar", lat: -22.534778, lon: 17.074127, tipo: "ponto" },
