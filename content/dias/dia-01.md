@@ -1,6 +1,5 @@
 ---
-resumo
-: "The adventure began at the border. Crossing took close to half an hour — longer than expected — and a practical note for anyone travelling with under-18s: proof of identity or a birth certificate is mandatory and will always be requested. No document, no entry.
+resumo: "The adventure began at the border. Crossing took close to half an hour — longer than expected — and a practical note for anyone travelling with under-18s: proof of identity or a birth certificate is mandatory and will always be requested. No document, no entry.
 
 From there, we headed to AfriCar to collect the jeeps. The handover process takes one to two hours — that's simply how it works, so factor it into your first day. The vehicles proved to be excellent: spacious, well-equipped, with a fridge, food storage boxes, folding tables and chairs, axes and shovels for those planning to camp. Everything you need for an expedition.
 
