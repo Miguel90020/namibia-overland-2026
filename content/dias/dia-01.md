@@ -9,9 +9,9 @@ The drive into Windhoek surprised us. Wide, well-maintained roads, organised nei
 We ended the day at Hotel Thule, where we were warmly received. Good restaurant, pool, comfortable rooms. A word on the weather: Namibian winter nights are cold — this is July, the Portuguese summer — but the rooms have air conditioning that doubles as a heater, and hot water is plentiful. More than enough to close out a long first day in excellent spirits."
 
 foto_capa: "https://res.cloudinary.com/o93anfqi/image/upload/v1788606244/IMG_9389.jpg"
-foto_destaque: ""
+foto_destaque: "https://res.cloudinary.com/o93anfqi/image/upload/v1788637624/IMG_9413.jpg"
 video: ""
-galerias: []
+galerias: ["https://res.cloudinary.com/o93anfqi/image/upload/v1788637600/IMG_9391.jpg", "https://res.cloudinary.com/o93anfqi/image/upload/v1788637607/IMG_9395.jpg", https://res.cloudinary.com/o93anfqi/image/upload/v1788637612/IMG_9397.jpg", "https://res.cloudinary.com/o93anfqi/image/upload/v1788637617/IMG_9399.jpg", "https://res.cloudinary.com/o93anfqi/image/upload/v1788637620/IMG_9411.jpg"]
 sabias_que: ""
 dicas: ""
 animais: ""
