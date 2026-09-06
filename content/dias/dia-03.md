@@ -10,7 +10,7 @@ At four, we headed out for the safari and sunset. Giraffes again, this time much
 Dinner, and then sleep. A long day, and an unforgettable one."
 foto_capa: "https://res.cloudinary.com/o93anfqi/image/upload/v1788733177/IMG_9595.jpg"
 foto_destaque: "https://res.cloudinary.com/o93anfqi/image/upload/v1788733154/IMG_9522.jpg"
-video: "https://.cloudinary.com/o93anfqi/video/upload/v1788733711/IMG_9493.mp4"
+video: "https://res.cloudinary.com/o93anfqi/video/upload/v1788733711/IMG_9493.mp4"
 video2: "https://res.cloudinary.com/o93anfqi/video/upload/v1788733721/IMG_9588.mp4"
 galerias: ["https://res.cloudinary.com/o93anfqi/image/upload/v1788733124/7eb165c0-690c-4814-a3fd-0c974bf9c83e.jpg", "https://res.cloudinary.com/o93anfqi/image/upload/v1788733128/IMG_9452.jpg", "https://res.cloudinary.com/o93anfqi/image/upload/v1788733134/IMG_9455.jpg", "https://res.cloudinary.com/o93anfqi/image/upload/v1788733138/IMG_9460.jpg", "https://res.cloudinary.com/o93anfqi/image/upload/v1788733144/IMG_9503.jpg", "https://res.cloudinary.com/o93anfqi/image/upload/v1788733147/IMG_9507.jpg", "https://res.cloudinary.com/o93anfqi/image/upload/v1788733150/IMG_9520.jpg", "https://res.cloudinary.com/o93anfqi/image/upload/v1788733158/IMG_9543.jpg", "https://res.cloudinary.com/o93anfqi/image/upload/v1788733163/IMG_9544.jpg", "https://res.cloudinary.com/o93anfqi/image/upload/v1788733168/IMG_9560.jpg", "https://res.cloudinary.com/o93anfqi/image/upload/v1788733173/IMG_9572.jpg", "https://res.cloudinary.com/o93anfqi/image/upload/v1788733184/IMG_9604.jpg", "https://res.cloudinary.com/o93anfqi/image/upload/v1788733190/IMG_9608.jpg"]
 sabias_que: ""
