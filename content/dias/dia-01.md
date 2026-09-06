@@ -14,7 +14,7 @@ foto_destaque: "https://res.cloudinary.com/o93anfqi/image/upload/v1788637624/IMG
 video: ""
 galerias: ["https://res.cloudinary.com/o93anfqi/image/upload/v1788637600/IMG_9391.jpg", "https://res.cloudinary.com/o93anfqi/image/upload/v1788637607/IMG_9395.jpg", "https://res.cloudinary.com/o93anfqi/image/upload/v1788637612/IMG_9397.jpg", "https://res.cloudinary.com/o93anfqi/image/upload/v1788637617/IMG_9399.jpg", "https://res.cloudinary.com/o93anfqi/image/upload/v1788637620/IMG_9411.jpg"]
 sabias_que: ""
-dicas: "Rush off the plane — border control queues form fast and the process can take up to 30 minutes even near the front. Travelling with under-18s: always carry a birth certificate or national ID, it will be requested without exception. AfriCar jeeps come fully equipped: fridge, food storage boxes, folding tables and chairs, axes and shovels — everything you need for camping and bush cooking. At Hotel Thule, go early for breakfast to secure a table with a view of the sunrise."
+dicas: "Rush off the plane — border control queues form fast and the process can take up to 30 minutes even near the front. Travelling with under-18s: always carry a birth certificate or national ID, it may be requested (even if you have the passport with you). AfriCar jeeps come fully equipped: fridge, food storage boxes, folding tables and chairs, axes and shovels — everything you need for camping and bush cooking. At Hotel Thule, go early for breakfast to secure a table with a view of the sunrise."
 animais: ""
 temperatura: ""
 ---
