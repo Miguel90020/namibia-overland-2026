@@ -149,7 +149,7 @@ export default function DiaPage({ dia, anterior, proximo, frontmatter }) {
         {fotoDestaque && (
           <section style={{ marginBottom: '4rem' }}>
             <Label>Photo of the day</Label>
-            <img src={fotoDestaque} alt={dia.titulo} style={{ width: '100%', borderRadius: '4px', aspectRatio: '3/2', objectFit: 'cover' }} />
+            <img src={fotoDestaque} alt={dia.titulo} style={{ width: '100%', borderRadius: '4px', display: 'block' }} />
           </section>
         )}
 
