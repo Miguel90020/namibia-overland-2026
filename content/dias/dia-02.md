@@ -10,10 +10,10 @@ The afternoon pushed further south. Before reaching Rehoboth for a fuel stop, th
 We arrived at Kalahari Anib Lodge as the afternoon cooled and headed straight out on one of the few self-guided walks the lodge offers. Six kilometres through the bush — impala visible throughout — and a sunset that caught us mid-trail. We arrived back after dark. Dinner at seven was relaxed and excellent.
 
 A long drive. A very good day."
-foto_capa: ""
-foto_destaque: ""
+foto_capa: "https://res.cloudinary.com/o93anfqi/image/upload/v1788728022/IMG_9417.jpg"
+foto_destaque: "https://res.cloudinary.com/o93anfqi/image/upload/v1788728054/IMG_9444.jpg"
 video: ""
-galerias: []
+galerias: ["https://res.cloudinary.com/o93anfqi/image/upload/v1788728034/IMG_9426.jpg", "https://res.cloudinary.com/o93anfqi/image/upload/v1788728038/IMG_9428.jpg", "https://res.cloudinary.com/o93anfqi/image/upload/v1788728042/IMG_9435.jpg", "https://res.cloudinary.com/o93anfqi/image/upload/v1788728046/IMG_9438.jpg", "https://res.cloudinary.com/o93anfqi/image/upload/v1788728050/IMG_9439.jpg"]
 sabias_que: ""
 dicas: "Maerua Spar is one of the best-stocked supermarkets in Windhoek — worth a proper visit before heading south. Excellent gluten-free selection, with a dedicated section plus options throughout the store. Budget roughly €80 per person for several days of supplies. Namibian roads are dotted with roadside rest stops — merendeiros — signposted with distance markers so you always know how far the next one is. Each has a table, chairs, and usually a bin, often in the shade. Perfect for a bush picnic using the equipment in your AfriCar jeep. Always speak to the lodge kitchen in advance about dietary requirements — in our experience, they accommodate without hesitation when given notice."
 animais: ""
