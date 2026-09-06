@@ -35,6 +35,7 @@ export default function DiaPage({ dia, anterior, proximo, frontmatter }) {
   const fotoCapa = frontmatter.foto_capa || null
   const fotoDestaque = frontmatter.foto_destaque || null
   const video = frontmatter.video || null
+  const video2 = frontmatter.video2 || null
   const galerias = frontmatter.galerias || []
   const resumo = frontmatter.resumo || null
   const sabias_que = frontmatter.sabias_que || null
@@ -129,6 +130,20 @@ export default function DiaPage({ dia, anterior, proximo, frontmatter }) {
             <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', borderRadius: '8px' }}>
               <iframe
                 src={video.includes('youtube') ? video.replace('watch?v=', 'embed/') : video.replace('vimeo.com/', 'player.vimeo.com/video/')}
+                style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 'none' }}
+                allow="autoplay; fullscreen"
+                allowFullScreen
+              />
+            </div>
+          </section>
+        )}
+
+        {video2 && (
+          <section style={{ marginBottom: '4rem' }}>
+            <Label>Video</Label>
+            <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', borderRadius: '8px' }}>
+              <iframe
+                src={video2.includes('youtube') ? video2.replace('watch?v=', 'embed/') : video2.replace('vimeo.com/', 'player.vimeo.com/video/')}
                 style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 'none' }}
                 allow="autoplay; fullscreen"
                 allowFullScreen
