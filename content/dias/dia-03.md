@@ -8,7 +8,7 @@ Back at the lodge, we discovered one of the jeeps had a flat tyre — almost cer
 At four, we headed out for the safari and sunset. Giraffes again, this time much closer than in the morning, zebras, more antelope, and a brief glimpse of a jackal in the fading light. We stopped for the sunset — drinks and food once more, and a sky that needed no description. On the drive back, already dark, a warthog appeared in the headlights — Pumba, for anyone who grew up with The Lion King — followed by a jackal, unhurried and visible for far longer than the brief sighting earlier in the day.
 
 Dinner, and then sleep. A long day, and an unforgettable one."
-foto_capa: ""
+foto_capa: "https://res.cloudinary.com/o93anfqi/image/upload/v1788733177/IMG_9595.jpg"
 foto_destaque: ""
 video: "https://res.cloudinary.com/o93anfqi/video/upload/v1788733711/IMG_9493.mp4"
 video2: "https://res.cloudinary.com/o93anfqi/video/upload/v1788733721/IMG_9588.mp4"
