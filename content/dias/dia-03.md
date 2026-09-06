@@ -10,8 +10,8 @@ At four, we headed out for the safari and sunset. Giraffes again, this time much
 Dinner, and then sleep. A long day, and an unforgettable one."
 foto_capa: ""
 foto_destaque: ""
-video: "https://youtube.com/shorts/RZNFFIur_Xk?feature=share"
-video2: "https://youtube.com/shorts/fM68GxVNhd4?feature=share"
+video: "https://res.cloudinary.com/o93anfqi/video/upload/v1788733711/IMG_9493.mp4"
+video2: "https://res.cloudinary.com/o93anfqi/video/upload/v1788733721/IMG_9588.mp4"
 galerias: []
 sabias_que: ""
 dicas: "The Bushmen Wisdom Experience is not included in the lodge package — it is a separately paid activity, but well worth it. Book in advance as availability may be limited. The afternoon safari and sunset experience is also an add-on; both are offered directly by Kalahari Anib Lodge. Punctures are common on Namibian roads — make sure you know how to change a tyre before setting off, or ask the AfriCar team to walk you through it when collecting your jeep."
