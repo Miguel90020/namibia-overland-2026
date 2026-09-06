@@ -30,8 +30,43 @@ export async function getStaticProps({ params }) {
   return { props: { dia, anterior, proximo, frontmatter } }
 }
 
+function getEmbedUrl(url) {
+  if (!url) return null
+  if (url.includes('youtube.com/shorts/')) {
+    const id = url.split('/shorts/')[1].split('?')[0]
+    return 'https://www.youtube.com/embed/' + id
+  }
+  if (url.includes('watch?v=')) return url.replace('watch?v=', 'embed/')
+  if (url.includes('vimeo.com/')) return url.replace('vimeo.com/', 'player.vimeo.com/video/')
+  return url
+}
+
+function VideoPlayer({ url }) {
+  if (!url) return null
+  if (url.includes('cloudinary.com')) {
+    return (
+      <video controls playsInline style={{ width: '100%', borderRadius: '8px', display: 'block' }}>
+        <source src={url} type="video/mp4" />
+      </video>
+    )
+  }
+  return (
+    <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', borderRadius: '8px' }}>
+      <iframe
+        src={getEmbedUrl(url)}
+        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 'none' }}
+        allow="fullscreen"
+        allowFullScreen
+      />
+    </div>
+  )
+}
+
+function Label({ children }) {
+  return <p style={{ fontSize: '0.7rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: 'var(--ochre)', marginBottom: '1.25rem' }}>{children}</p>
+}
+
 export default function DiaPage({ dia, anterior, proximo, frontmatter }) {
-  const diaSlug = `dia-${String(dia.numero).padStart(2, '0')}`
   const fotoCapa = frontmatter.foto_capa || null
   const fotoDestaque = frontmatter.foto_destaque || null
   const video = frontmatter.video || null
@@ -42,17 +77,6 @@ export default function DiaPage({ dia, anterior, proximo, frontmatter }) {
   const dicas = frontmatter.dicas || null
   const animais = frontmatter.animais || null
   const temperatura = frontmatter.temperatura || null
-
-  const getEmbedUrl = (url) => {
-    if (!url) return null
-    if (url.includes('youtube.com/shorts/')) {
-      const id = url.split('/shorts/')[1].split('?')[0]
-      return 'https://www.youtube.com/embed/' + id
-    }
-    if (url.includes('watch?v=')) return url.replace('watch?v=', 'embed/')
-    if (url.includes('vimeo.com/')) return url.replace('vimeo.com/', 'player.vimeo.com/video/')
-    return url
-  }
 
   return (
     <>
@@ -132,18 +156,14 @@ export default function DiaPage({ dia, anterior, proximo, frontmatter }) {
         {video && (
           <section style={{ marginBottom: '4rem' }}>
             <Label>Video</Label>
-            <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', borderRadius: '8px' }}>
-              <iframe src={getEmbedUrl(video)} style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 'none' }} allow="autoplay; fullscreen" allowFullScreen />
-            </div>
+            <VideoPlayer url={video} />
           </section>
         )}
 
         {video2 && (
           <section style={{ marginBottom: '4rem' }}>
             <Label>Video</Label>
-            <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', borderRadius: '8px' }}>
-              <iframe src={getEmbedUrl(video2)} style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 'none' }} allow="autoplay; fullscreen" allowFullScreen />
-            </div>
+            <VideoPlayer url={video2} />
           </section>
         )}
 
@@ -195,8 +215,4 @@ export default function DiaPage({ dia, anterior, proximo, frontmatter }) {
       </main>
     </>
   )
-}
-
-function Label({ children }) {
-  return <p style={{ fontSize: '0.7rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: 'var(--ochre)', marginBottom: '1.25rem' }}>{children}</p>
 }
