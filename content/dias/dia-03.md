@@ -9,7 +9,7 @@ At four, we headed out for the safari and sunset. Giraffes again, this time much
 
 Dinner, and then sleep. A long day, and an unforgettable one."
 foto_capa: "https://res.cloudinary.com/o93anfqi/image/upload/v1788733177/IMG_9595.jpg"
-foto_destaque: ""
+foto_destaque: "https://res.cloudinary.com/o93anfqi/image/upload/v1788733154/IMG_9522.jpg"
 video: "https://res.cloudinary.com/o93anfqi/video/upload/v1788733711/IMG_9493.mp4"
 video2: "https://res.cloudinary.com/o93anfqi/video/upload/v1788733721/IMG_9588.mp4"
 galerias: []
