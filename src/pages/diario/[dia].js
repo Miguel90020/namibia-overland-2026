@@ -43,20 +43,30 @@ export default function DiaPage({ dia, anterior, proximo, frontmatter }) {
   const animais = frontmatter.animais || null
   const temperatura = frontmatter.temperatura || null
 
+  const getEmbedUrl = (url) => {
+    if (!url) return null
+    if (url.includes('youtube.com/shorts/')) {
+      const id = url.split('/shorts/')[1].split('?')[0]
+      return 'https://www.youtube.com/embed/' + id
+    }
+    if (url.includes('watch?v=')) return url.replace('watch?v=', 'embed/')
+    if (url.includes('vimeo.com/')) return url.replace('vimeo.com/', 'player.vimeo.com/video/')
+    return url
+  }
+
   return (
     <>
       <Head>
-        <title>Day {dia.numero} — {dia.titulo} · Namibia Overland 2026</title>
-        <meta name="description" content={`${dia.data} — ${dia.subtitulo}. ${dia.titulo}.`} />
-        <meta property="og:title" content={`Day ${dia.numero} — ${dia.titulo} · Namibia Overland 2026`} />
-        <meta property="og:description" content={`${dia.data} — ${dia.subtitulo}`} />
+        <title>Day {dia.numero} - {dia.titulo} - Namibia Overland 2026</title>
+        <meta name="description" content={`${dia.data} - ${dia.subtitulo}. ${dia.titulo}.`} />
+        <meta property="og:title" content={`Day ${dia.numero} - ${dia.titulo} - Namibia Overland 2026`} />
+        <meta property="og:description" content={`${dia.data} - ${dia.subtitulo}`} />
         {fotoCapa && <meta property="og:image" content={fotoCapa} />}
         <meta property="og:type" content="article" />
         <link rel="icon" href="/favicon.svg" />
       </Head>
       <Nav />
 
-      {/* Hero */}
       <section style={{
         position: 'relative', height: '70vh', minHeight: '480px',
         background: 'linear-gradient(160deg, var(--night) 0%, var(--earth) 100%)', overflow: 'hidden',
@@ -65,14 +75,13 @@ export default function DiaPage({ dia, anterior, proximo, frontmatter }) {
         <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, rgba(26,18,8,0.9) 0%, rgba(26,18,8,0.1) 70%)' }} />
         <div style={{ position: 'absolute', bottom: '3rem', left: '50%', transform: 'translateX(-50%)', textAlign: 'center', width: '100%', padding: '0 2rem' }}>
           <p style={{ fontSize: '0.75rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: 'var(--ochre)', marginBottom: '1rem' }}>
-            Day {dia.numero} · {dia.data}
+            Day {dia.numero} - {dia.data}
           </p>
           <h1 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(2rem, 5vw, 3.5rem)', color: 'var(--white)', marginBottom: '0.75rem' }}>{dia.titulo}</h1>
           <p style={{ fontFamily: 'var(--font-display)', fontSize: '1.1rem', fontStyle: 'italic', color: 'var(--sand)' }}>{dia.subtitulo}</p>
         </div>
       </section>
 
-      {/* Quick stats */}
       <div style={{ background: 'var(--night-soft)', padding: '1rem 2rem', display: 'flex', justifyContent: 'center', gap: '3rem', flexWrap: 'wrap' }}>
         {[
           { label: 'Destination', value: dia.destino },
@@ -90,7 +99,6 @@ export default function DiaPage({ dia, anterior, proximo, frontmatter }) {
 
       <main style={{ maxWidth: 'var(--content-width)', margin: '0 auto', padding: '4rem 2rem' }}>
 
-        {/* Map */}
         <section style={{ marginBottom: '4rem' }}>
           <Label>Route of the day</Label>
           <DayMap pontos={dia.pontos} height={380} />
@@ -104,7 +112,6 @@ export default function DiaPage({ dia, anterior, proximo, frontmatter }) {
           </p>
         </section>
 
-        {/* Summary */}
         <section style={{ marginBottom: '4rem' }}>
           <Label>What we lived</Label>
           <div style={{ fontFamily: 'var(--font-display)', fontSize: '1.15rem', lineHeight: 2, color: 'var(--night-soft)', borderLeft: '3px solid var(--ochre)', paddingLeft: '1.5rem' }}>
@@ -115,7 +122,6 @@ export default function DiaPage({ dia, anterior, proximo, frontmatter }) {
           </div>
         </section>
 
-        {/* Featured photo */}
         {fotoDestaque && (
           <section style={{ marginBottom: '4rem' }}>
             <Label>Photo of the day</Label>
@@ -123,17 +129,11 @@ export default function DiaPage({ dia, anterior, proximo, frontmatter }) {
           </section>
         )}
 
-        {/* Video */}
         {video && (
           <section style={{ marginBottom: '4rem' }}>
             <Label>Video</Label>
             <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', borderRadius: '8px' }}>
-              <iframe
-                src={video.includes('youtube') ? video.replace('watch?v=', 'embed/') : video.replace('vimeo.com/', 'player.vimeo.com/video/')}
-                style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 'none' }}
-                allow="autoplay; fullscreen"
-                allowFullScreen
-              />
+              <iframe src={getEmbedUrl(video)} style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 'none' }} allow="autoplay; fullscreen" allowFullScreen />
             </div>
           </section>
         )}
@@ -142,65 +142,54 @@ export default function DiaPage({ dia, anterior, proximo, frontmatter }) {
           <section style={{ marginBottom: '4rem' }}>
             <Label>Video</Label>
             <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', borderRadius: '8px' }}>
-              <iframe
-                src={video2.includes('youtube') ? video2.replace('watch?v=', 'embed/') : video2.replace('vimeo.com/', 'player.vimeo.com/video/')}
-                style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 'none' }}
-                allow="autoplay; fullscreen"
-                allowFullScreen
-              />
+              <iframe src={getEmbedUrl(video2)} style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 'none' }} allow="autoplay; fullscreen" allowFullScreen />
             </div>
           </section>
         )}
 
-        {/* Gallery */}
         {galerias.length > 0 && (
           <section style={{ marginBottom: '4rem' }}>
             <Label>Gallery</Label>
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))', gap: '4px' }}>
               {galerias.map((url, i) => (
-                <img key={i} src={url} alt={`${dia.titulo} ${i + 1}`}
-                  style={{ width: '100%', aspectRatio: '1', objectFit: 'cover', borderRadius: '2px' }} />
+                <img key={i} src={url} alt={`${dia.titulo} ${i + 1}`} style={{ width: '100%', aspectRatio: '1', objectFit: 'cover', borderRadius: '2px' }} />
               ))}
             </div>
           </section>
         )}
 
-        {/* Tips */}
         {dicas && (
           <section style={{ marginBottom: '4rem', background: 'var(--sand-dark)', padding: '2rem', borderRadius: '4px' }}>
             <p style={{ fontSize: '0.75rem', letterSpacing: '0.15em', textTransform: 'uppercase', color: 'var(--ochre)', marginBottom: '0.75rem' }}>
-              📍 Our tips
+              Our tips
             </p>
             <p style={{ color: 'var(--night-soft)', fontSize: '0.95rem', lineHeight: 1.8 }}>{dicas}</p>
           </section>
         )}
 
-        {/* Did you know */}
         {sabias_que && (
           <section style={{ marginBottom: '4rem', background: 'var(--sand)', padding: '2rem', borderRadius: '4px' }}>
             <p style={{ fontSize: '0.75rem', letterSpacing: '0.15em', textTransform: 'uppercase', color: 'var(--ochre)', marginBottom: '0.75rem' }}>
-              💡 Did you know?
+              Did you know?
             </p>
             <p style={{ color: 'var(--night-soft)', fontSize: '0.95rem', lineHeight: 1.8 }}>{sabias_que}</p>
           </section>
         )}
 
-        {/* Tomorrow */}
         {dia.amanha && (
           <section style={{ borderTop: '1px solid var(--grey-light)', paddingTop: '2rem', marginBottom: '4rem', textAlign: 'right' }}>
-            <p style={{ fontSize: '0.75rem', letterSpacing: '0.1em', textTransform: 'uppercase', color: 'var(--grey)', marginBottom: '0.5rem' }}>Tomorrow we head to…</p>
+            <p style={{ fontSize: '0.75rem', letterSpacing: '0.1em', textTransform: 'uppercase', color: 'var(--grey)', marginBottom: '0.5rem' }}>Tomorrow we head to...</p>
             <p style={{ fontFamily: 'var(--font-display)', fontSize: '1.3rem', color: 'var(--earth)', fontStyle: 'italic' }}>{dia.amanha}</p>
           </section>
         )}
 
-        {/* Navigation */}
         <nav style={{ display: 'flex', justifyContent: 'space-between', gap: '1rem', paddingTop: '2rem', borderTop: '1px solid var(--grey-light)' }}>
           {anterior
-            ? <Link href={`/diario/dia-${String(anterior.numero).padStart(2, '0')}`} style={{ color: 'var(--grey)', fontSize: '0.85rem' }}>← Day {anterior.numero}</Link>
+            ? <Link href={`/diario/dia-${String(anterior.numero).padStart(2, '0')}`} style={{ color: 'var(--grey)', fontSize: '0.85rem' }}>Day {anterior.numero}</Link>
             : <span />}
           <Link href="/diario" style={{ fontSize: '0.75rem', letterSpacing: '0.1em', textTransform: 'uppercase', color: 'var(--ochre)' }}>All days</Link>
           {proximo
-            ? <Link href={`/diario/dia-${String(proximo.numero).padStart(2, '0')}`} style={{ color: 'var(--grey)', fontSize: '0.85rem' }}>Day {proximo.numero} →</Link>
+            ? <Link href={`/diario/dia-${String(proximo.numero).padStart(2, '0')}`} style={{ color: 'var(--grey)', fontSize: '0.85rem' }}>Day {proximo.numero}</Link>
             : <span />}
         </nav>
       </main>
