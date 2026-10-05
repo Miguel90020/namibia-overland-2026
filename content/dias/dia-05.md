@@ -8,9 +8,10 @@ There is no defined path. Just loose rock, boulders, and your own judgement — 
 At the bottom, we stopped on a rocky ledge high above the river, the Fish River winding below us in a landscape that felt genuinely remote. The lodge provides a meal as part of the paid experience, and we ate there, above the canyon, before making our way back up. The return proved just as tough as the descent. We were back at the lodge somewhere mid-to-late afternoon, leaving what remained of the day to recover.
 
 The lodge pool looks directly onto the canyon — cold, as expected in Namibian winter, but difficult to resist after a hike like that. Dinner at seven was, once again, refined and excellent."
-foto_capa: ""
-foto_destaque: ""
+foto_capa: "https://res.cloudinary.com/o93anfqi/image/upload/v1791227319/IMG_9813.jpg"
+foto_destaque: "https://res.cloudinary.com/o93anfqi/image/upload/v1791227310/IMG_9766.jpg"
 video: ""
+video2: ""
 galerias: []
 sabias_que: ""
 dicas: "The Fish River Canyon hike is a paid add-on through the lodge — not included in your stay. It is rated six out of ten for fitness but deserves more caution than that suggests. No defined path, loose rock throughout, and you will need your hands for support on sections of both the descent and the ascent. Good hiking boots and a reasonable level of fitness are essential."
