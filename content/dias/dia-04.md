@@ -7,7 +7,8 @@ The road then led us to Keetmanshoop, where a workshop recommended by AfriCar ch
 foto_capa: "https://res.cloudinary.com/o93anfqi/image/upload/v1791224551/IMG_9703.jpg"
 foto_destaque: "https://res.cloudinary.com/o93anfqi/image/upload/v1791224426/IMG_9652.jpg"
 video: ""
-galerias: []
+video2: ""
+galerias: ["https://res.cloudinary.com/o93anfqi/image/upload/v1791224402/IMG_9627.jpg","https://res.cloudinary.com/o93anfqi/image/upload/v1791224407/IMG_9634.jpg","https://res.cloudinary.com/o93anfqi/image/upload/v1791224413/WhatsApp_Image_2026-10-05_at_19.00.28.jpg","https://res.cloudinary.com/o93anfqi/image/upload/v1791224419/IMG_9641.jpg","https://res.cloudinary.com/o93anfqi/image/upload/v1791224422/IMG_9668.jpg","https://res.cloudinary.com/o93anfqi/image/upload/v1791224429/IMG_9671.jpg","https://res.cloudinary.com/o93anfqi/image/upload/v1791224433/IMG_9674.jpg","https://res.cloudinary.com/o93anfqi/image/upload/v1791224461/IMG_9690.jpg","https://res.cloudinary.com/o93anfqi/image/upload/v1791224541/IMG_9700.jpg","https://res.cloudinary.com/o93anfqi/image/upload/v1791224545/IMG_9702.jpg","https://res.cloudinary.com/o93anfqi/image/upload/v1791224555/IMG_9725.jpg"]
 sabias_que: "The Quiver Tree (Aloidendron dichotomum) is found only in southern Namibia and the Northern Cape of South Africa — and Namibia is home to the vast majority. They can grow up to 10 metres tall and live for over 300 years. Their name comes from the San people, who hollowed out the branches to make quivers for their arrows. The Quiver Tree Forest near Keetmanshoop was declared a national monument of Namibia in 1995. The species is currently classified as Vulnerable due to climate change."
 dicas: "If travelling in a group with AfriCar vehicles, test the radios thoroughly before leaving Windhoek, not just in the car park. Ours worked at 1–2 km during the workshop test, but an hour of rough road later they were only reaching a few metres. Worth flagging early."
 animais: ""
