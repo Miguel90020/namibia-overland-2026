@@ -10,8 +10,8 @@ At the bottom, we stopped on a rocky ledge high above the river, the Fish River 
 The lodge pool looks directly onto the canyon — cold, as expected in Namibian winter, but difficult to resist after a hike like that. Dinner at seven was, once again, refined and excellent."
 foto_capa: "https://res.cloudinary.com/o93anfqi/image/upload/v1791227319/IMG_9813.jpg"
 foto_destaque: "https://res.cloudinary.com/o93anfqi/image/upload/v1791227310/IMG_9766.jpg"
-video: ""
-video2: ""
+video: "https://res.cloudinary.com/o93anfqi/video/upload/v1791228629/IMG_9743.mp4"
+video2: "https://res.cloudinary.com/o93anfqi/video/upload/v1791228642/Video_Project_1.mp4"
 galerias: ["https://res.cloudinary.com/o93anfqi/image/upload/v1791227287/IMG_9730.jpg","https://res.cloudinary.com/o93anfqi/image/upload/v1791227292/IMG_9736.jpg","https://res.cloudinary.com/o93anfqi/image/upload/v1791227300/IMG_9747.jpg","https://res.cloudinary.com/o93anfqi/image/upload/v1791227307/IMG_9757.jpg","https://res.cloudinary.com/o93anfqi/image/upload/v1791227313/IMG_9811.jpg","https://res.cloudinary.com/o93anfqi/image/upload/v1791227324/IMG_9839.jpg","https://res.cloudinary.com/o93anfqi/image/upload/v1791227327/IMG_9844.jpg","https://res.cloudinary.com/o93anfqi/image/upload/v1791227330/IMG_9853.jpg","https://res.cloudinary.com/o93anfqi/image/upload/v1791227334/IMG_9861.jpg","https://res.cloudinary.com/o93anfqi/image/upload/v1791227337/IMG_9903.jpg","https://res.cloudinary.com/o93anfqi/image/upload/v1791227341/IMG_9906.jpg","https://res.cloudinary.com/o93anfqi/image/upload/v1791227344/IMG_9909.jpg","https://res.cloudinary.com/o93anfqi/image/upload/v1791227347/IMG_9918.jpg","https://res.cloudinary.com/o93anfqi/image/upload/v1791227350/IMG_9928.jpg"]
 sabias_que: ""
 dicas: "The Fish River Canyon hike is a paid add-on through the lodge — not included in your stay. It is rated six out of ten for fitness but deserves more caution than that suggests. No defined path, loose rock throughout, and you will need your hands for support on sections of both the descent and the ascent. Good hiking boots and a reasonable level of fitness are essential."
