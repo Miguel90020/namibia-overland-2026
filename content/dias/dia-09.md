@@ -7,9 +7,9 @@ Back at the lodge by around one, we had lunch before settling into the afternoon
 
 The rest of the afternoon was genuinely unhurried: a board game, a swim, some rest. After the intensity of the previous days, a quieter day was exactly what was needed."
 foto_capa: "https://res.cloudinary.com/o93anfqi/image/upload/v1791747371/IMG_0232.jpg"
-foto_destaque: ""
-video: ""
-galerias: []
+foto_destaque: "https://res.cloudinary.com/o93anfqi/image/upload/v1791747372/IMG_0246.jpg"
+video: "https://res.cloudinary.com/o93anfqi/video/upload/v1791747548/IMG_0253.mp4"
+galerias: ["https://res.cloudinary.com/o93anfqi/image/upload/v1791747371/IMG_0212.jpg","https://res.cloudinary.com/o93anfqi/image/upload/v1791747371/IMG_0217.jpg","https://res.cloudinary.com/o93anfqi/image/upload/v1791747371/IMG_0225.jpg","https://res.cloudinary.com/o93anfqi/image/upload/v1791747371/IMG_0239.jpg","https://res.cloudinary.com/o93anfqi/image/upload/v1791747371/IMG_0227.jpg","https://res.cloudinary.com/o93anfqi/image/upload/v1791747372/IMG_0267.jpg","https://res.cloudinary.com/o93anfqi/image/upload/v1791747372/IMG_0272.jpg","https://res.cloudinary.com/o93anfqi/image/upload/v1791747372/IMG_0266.jpg","https://res.cloudinary.com/o93anfqi/image/upload/v1791747372/IMG_0277.jpg"]
 sabias_que: "The rock hyrax looks like an oversized guinea pig but its closest living relative is the elephant. The two species share the same foot structure, continually growing incisors — the hyrax equivalent of tusks — and an unusually long gestation period of over seven months, remarkable for an animal of its size. They also share kinship with manatees and dugongs. Appearances, in the animal kingdom, can be spectacularly misleading."
 dicas: "The Quiver Trail is a paid add-on at Büllsport, not included in the lodge rate. It combines guided driving and walking and takes most of the morning — factor that in when planning your day."
 animais: ""
