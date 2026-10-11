@@ -6,7 +6,7 @@ The hike itself was mostly downhill and more accessible than the days before it.
 Back at the lodge by around one, we had lunch before settling into the afternoon. Mid-afternoon, without any request on our part, a gluten-free snack appeared at the outdoor tables — prepared by the lodge specifically for us (we are coeliac). The farm owners, throughout our stay, would pass by during meals to check how we were doing and whether we needed anything. It was, without question, the warmest hospitality we experienced in Namibia.
 
 The rest of the afternoon was genuinely unhurried: a board game, a swim, some rest. After the intensity of the previous days, a quieter day was exactly what was needed."
-foto_capa: ""
+foto_capa: "https://res.cloudinary.com/o93anfqi/image/upload/v1791747371/IMG_0232.jpg"
 foto_destaque: ""
 video: ""
 galerias: []
