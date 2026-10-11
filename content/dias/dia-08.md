@@ -6,7 +6,7 @@ Our first stop was Helmeringhausen, a small village — barely a stop at all, ju
 We reached Büllsport around five in the afternoon. Along the way: ostriches, a tortoise, and a couple of jackals. The radios, tested throughout the drive, worked perfectly. On arrival we were greeted by the farm dogs — some of them very much wanting to play, one arriving with a ball already in its mouth. After settling in, the group split: some headed to the pool to sit in the quiet and read, others set off on one of the walks the lodge recommends. Either way, the afternoon was unhurried.
 
 Dinner was beside a bonfire, home-cooked and unhurried. We were the only ones there. One of those evenings that stays with you precisely because nothing about it was arranged for effect."
-foto_capa: "https://res.cloudinary.com/o93anfqi/image/upload/v1791732461/IMG_0137.jpg"
+foto_capa: "https://res.cloudinary.com/o93anfqi/image/upload/v1791732419/IMG_0184.jpg"
 foto_destaque: ""
 video: ""
 galerias: []
