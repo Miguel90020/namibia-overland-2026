@@ -6,8 +6,8 @@ Our first stop was Sossusvlei — a salt and clay pan ringed by towering orange 
 The afternoon took us to Deadvlei and Big Daddy Dune. Big Daddy is said to be the tallest dune in Namibia, reaching somewhere between 300 and 400 metres. We climbed partway up — not to the summit, but enough to earn the view. Deadvlei itself is something else entirely: a perfectly flat white clay pan surrounded by dark red dunes, scattered with the blackened skeletons of camel thorn trees that have been standing dead for six to nine hundred years. The contrast — white floor, black trees, red dunes, blue sky — looks almost painted. It is one of those places that photographs well and still manages to exceed expectations in person.
 
 Back at the Sossus Dune Lodge by late afternoon for a swim and some rest before dinner. Along the way throughout the day — across open plains before entering the park, and through the desert itself — we spotted zebras, oryx, springboks, impalas, ostriches, and baboons."
-foto_capa: ""
-foto_destaque: ""
+foto_capa: "https://res.cloudinary.com/o93anfqi/image/upload/v1791757974/IMG_0334.jpg"
+foto_destaque: "https://res.cloudinary.com/o93anfqi/image/upload/v1791757971/IMG_0318.jpg"
 video: ""
 galerias: []
 sabias_que: "The trees standing in Deadvlei died between 600 and 900 years ago, when shifting sand dunes blocked the Tsauchab River and cut off the water supply that had allowed them to grow. They have never decomposed. The climate is so dry that the wood simply cannot rot — it has only darkened, scorched black by centuries of desert sun. What you are looking at is not a ruin. It is a landscape frozen in time, exactly as it was when the last tree fell."
