@@ -8,7 +8,7 @@ The afternoon took us to Deadvlei and Big Daddy Dune. Big Daddy is said to be th
 Back at the Sossus Dune Lodge by late afternoon for a swim and some rest before dinner. Along the way throughout the day — across open plains before entering the park, and through the desert itself — we spotted zebras, oryx, springboks, impalas, ostriches, and baboons."
 foto_capa: ""
 foto_destaque: ""
-video: "https://res.cloudinary.com/o93anfqi/video/upload/v1791756674/IMG_0324.mp4"
+video: ""
 galerias: []
 sabias_que: "The trees standing in Deadvlei died between 600 and 900 years ago, when shifting sand dunes blocked the Tsauchab River and cut off the water supply that had allowed them to grow. They have never decomposed. The climate is so dry that the wood simply cannot rot — it has only darkened, scorched black by centuries of desert sun. What you are looking at is not a ruin. It is a landscape frozen in time, exactly as it was when the last tree fell."
 dicas: "A park permit is required to enter the Namib-Naukluft National Park — available at Sossus Oasis before the gate. Go as early as possible: the dunes are best in morning light and the car park at Deadvlei fills up quickly. The 4x4-only section beyond the main car park gets you significantly closer to Sossusvlei and Deadvlei — worth using if your vehicle allows it. Never underestimate a dune. What looks like a short climb from the bottom can take well over an hour and will leave even reasonably fit people completely breathless. Anyone with limited athletic capacity should think carefully before attempting the larger dunes."
