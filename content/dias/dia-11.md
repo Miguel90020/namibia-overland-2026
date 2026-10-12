@@ -6,8 +6,8 @@ From there, a practical stop in Solitaire — a tiny outpost in the middle of th
 Next, the Tropic of Capricorn, marked by a roadside sign that is exactly what it sounds like and worth stopping for a picture. Then the Kuiseb Pass, where we had lunch overlooking the canyon — a lunar, almost geological landscape that sits on the natural boundary between the dune desert to the south and the rocky desert to the north.
 
 Walvis Bay followed — a surprisingly modern, well-organised city for Namibia — before the final stretch into Swakopmund, our base for the next two nights. We stayed at the Jetty Self-Catering apartments: no restaurant, no breakfast service, no dinner — just a kitchen and a view. We cooked for ourselves and called it a day."
-foto_capa: ""
-foto_destaque: ""
+foto_capa: "https://res.cloudinary.com/o93anfqi/image/upload/v1791818392/IM.jpg"
+foto_destaque: "https://res.cloudinary.com/o93anfqi/image/upload/v1791818393/IMG_0456.jpg"
 video: ""
 galerias: []
 sabias_que: "The Namib Desert is estimated to be around 55 million years old — making it one of the oldest deserts on Earth, and possibly the oldest. For context, the Sahara is thought to be around 7 million years old. The Namib owes its extreme aridity to the cold Benguela Current running along the Atlantic coast, which prevents moisture from moving inland."
