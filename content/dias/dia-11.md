@@ -9,7 +9,7 @@ Walvis Bay followed — a surprisingly modern, well-organised city for Namibia �
 foto_capa: "https://res.cloudinary.com/o93anfqi/image/upload/v1791818394/IMG_0500.jpg"
 foto_destaque: "https://res.cloudinary.com/o93anfqi/image/upload/v1791818393/IMG_0456.jpg"
 video: ""
-galerias: []
+galerias: ["https://res.cloudinary.com/o93anfqi/image/upload/v1791818393/IMG_0474.jpg","https://res.cloudinary.com/o93anfqi/image/upload/v1791818393/IMG_0446.jpg","]
 sabias_que: "The Namib Desert is estimated to be around 55 million years old — making it one of the oldest deserts on Earth, and possibly the oldest. For context, the Sahara is thought to be around 7 million years old. The Namib owes its extreme aridity to the cold Benguela Current running along the Atlantic coast, which prevents moisture from moving inland."
 dicas: "Solitaire is a useful fuel and water stop — don't skip it if you need either. The Sesriem Canyon walk is short and straightforward, but go early before the heat builds."
 animais: ""
