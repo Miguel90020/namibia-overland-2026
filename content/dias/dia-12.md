@@ -6,8 +6,8 @@ Sandwich Harbour turned out to be something none of us had quite pictured before
 Those of us kayaking had an equally memorable morning. The guide drove us out to the launch point, pointing out flamingos and other wildlife along the way and explaining how salt is harvested from the surrounding waters. At the water, we were kitted out with dry gear and paddled toward a large seal colony — many resting on land, many more in the water, some drifting remarkably close to the kayaks. Tempting as it was, there was no touching them; wild seals can turn aggressive without warning. On the way back, we spotted jackals — including one feeding on a dead seal pup, and another pair chasing it off their territory. A reminder that what looks chaotic out there follows its own order.
 
 Back together, some of us had lunch at a café near the meeting point before a supermarket run at Checkers to stock up for the days ahead. We closed the day with dinner at Ocean Cellar, an excellent option for coeliacs: the menu clearly flags which dishes are safe and which allergens are present throughout. Back to the Jetty Self-Catering apartments to end the day."
-foto_capa: ""
-foto_destaque: ""
+foto_capa: "https://res.cloudinary.com/o93anfqi/image/upload/v1791874167/IMG_0587.jpg"
+foto_destaque: "https://res.cloudinary.com/o93anfqi/image/upload/v1791874148/9244f8d8-73a9-42b1-a6bf-1354e358abec.jpg"
 video: ""
 galerias: []
 sabias_que: "Jackals are territorial and almost always travel in bonded pairs, patrolling and defending a fixed home range together. What looks like random movement in the desert is often a pair working their territory — and intruders, as we witnessed, are chased off decisively. Despite being found across much of Africa, jackals are rarely observed this closely or this naturally outside of protected areas."
