@@ -6,7 +6,8 @@ The descent was just as steep as the ascent, and required its own concentration.
 Back at the cabin tents, we made lunch on the communal grills and let the afternoon pass quietly. At five, we set out for the Rock Arch — a natural opening in the granite shaped like an eye, oriented to frame both sunrise and sunset. We climbed the rock beside it as the sun descended, and watched southern Africa go dark from above. Then back to camp, a fire we built ourselves, and an evening spent around it under a sky dense with stars."
 foto_capa: ""
 foto_destaque: ""
-video: ""
+video: "https://res.cloudinary.com/o93anfqi/video/upload/v1792099531/IMG_0866.mp4"
+video2: "https://res.cloudinary.com/o93anfqi/video/upload/v1792099535/IMG_0987.mp4"
 galerias: []
 sabias_que: "The granite peaks of Spitzkoppe formed around 120 to 135 million years ago, as a result of tectonic and volcanic activity that would eventually lead to the separation of Africa and South America and the opening of the South Atlantic Ocean."
 dicas: "The guided hike at Spitzkoppe is described as easy — treat that with some scepticism. The descents in particular are steep and require care. Start early to avoid the midday heat. The Rock Arch at sunset is worth planning your afternoon around — arrive a little before five to find a good position on the rock."
