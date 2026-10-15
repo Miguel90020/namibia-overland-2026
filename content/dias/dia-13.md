@@ -7,8 +7,8 @@ resumo: |
   The guides also demonstrated the magnetic properties of magnetite found within the sand, and explained why the dunes vary so dramatically in colour: older dunes are deep red because the iron in the sand oxidises over time, while younger dunes closer to the coast remain pale yellow, their iron not yet weathered. A detail that reframes everything you look at for the rest of the drive.
 
   Back in our own cars, we had lunch by the sea near the Tug Restaurant, refuelled, and set off for Spitzkoppe. Our accommodation there was a self-catering campsite with shared grills and bathrooms — but instead of tents, we slept in surprisingly comfortable and well-appointed cabins. We cooked dinner on the communal grills, ate at the park's outdoor tables, and ended the day with a bonfire under the Southern Hemisphere sky. The stars at that latitude, away from any light pollution, are something else entirely.
-foto_capa: ""
-foto_destaque: ""
+foto_capa: "https://res.cloudinary.com/o93anfqi/image/upload/v1791875189/IMG_0766.jpg"
+foto_destaque: "https://res.cloudinary.com/o93anfqi/image/upload/v1791875188/IMG_0705.jpg"
 video: "https://res.cloudinary.com/o93anfqi/video/upload/v1792088205/IMG_0661.mp4"
 video2: "https://res.cloudinary.com/o93anfqi/video/upload/v1792088217/IMG_0704.mp4"
 galerias: []
