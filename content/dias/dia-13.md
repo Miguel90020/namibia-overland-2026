@@ -9,8 +9,8 @@ resumo: |
   Back in our own cars, we had lunch by the sea near the Tug Restaurant, refuelled, and set off for Spitzkoppe. Our accommodation there was a self-catering campsite with shared grills and bathrooms — but instead of tents, we slept in surprisingly comfortable and well-appointed cabins. We cooked dinner on the communal grills, ate at the park's outdoor tables, and ended the day with a bonfire under the Southern Hemisphere sky. The stars at that latitude, away from any light pollution, are something else entirely.
 foto_capa: ""
 foto_destaque: ""
-video: ""
-video2: ""
+video: "https://res.cloudinary.com/o93anfqi/video/upload/v1792088205/IMG_0661.mp4"
+video2: "https://res.cloudinary.com/o93anfqi/video/upload/v1792088217/IMG_0704.mp4"
 galerias: []
 sabias_que: |
   The Shovel-Snouted Lizard, one of the Namib's Little Five, has developed a remarkable way of dealing with sand that can reach over 70°C at the surface: it performs a "thermal dance," lifting alternate pairs of feet off the ground to cool them down, switching every few seconds. It looks almost comic — until you consider that without it, the lizard would simply burn. Each of the Little Five has evolved an equally specific adaptation to survive one of the harshest environments on Earth.
