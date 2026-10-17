@@ -110,7 +110,7 @@ export const dias = [
       { nome: "D2670 Huab", lat: -20.028019, lon: 14.998836, tipo: "ponto" },
       { nome: "Huab Lodge", lat: -19.972265, lon: 14.761268, tipo: "alojamento" },
     ]},
-  { numero: 16, data: "8 ago", titulo: "Twyfelfontein & Otjikandero", subtitulo: "Rock art and black rhinos", regiao: "Damaraland", destino: "Huab Lodge", amanha: "Etosha — Andersson Gate", km: 120,
+  { numero: 16, data: "8 ago", titulo: "Day at Huab Lodge", subtitulo: "A short walk, a hot spring and a slow afternoon", regiao: "Damaraland", destino: "Huab Lodge", amanha: "Etosha — Andersson Gate", km: 120,
     pontos: [
       { nome: "Huab Lodge", lat: -19.972265, lon: 14.761268, tipo: "partida" },
       { nome: "Otjikandero", lat: -19.669012, lon: 15.022077, tipo: "ponto" },
