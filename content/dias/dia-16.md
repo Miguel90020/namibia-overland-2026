@@ -5,7 +5,7 @@ The lodge has two pools: a regular one, on the cooler side, and a natural pool f
 
 The most relaxed day of the trip. Not every day needs to be a highlight."
 foto_capa: "https://res.cloudinary.com/o93anfqi/image/upload/v1792260447/IMG_1137.jpg"
-foto_destaque: ""https://res.cloudinary.com/o93anfqi/image/upload/v1792260447/IMG_1136.jpg
+foto_destaque: "https://res.cloudinary.com/o93anfqi/image/upload/v1792260447/IMG_1136.jpg"
 video: "https://res.cloudinary.com/o93anfqi/video/upload/v1792260471/IMG_1204.mp4"
 galerias: []
 sabias_que: ""
