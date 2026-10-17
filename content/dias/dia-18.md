@@ -8,7 +8,7 @@ The next two waterholes — Adamax and another nearby — were completely dry. A
 We headed out again at four, revisiting three waterholes. The driving brought a large herd of zebras, springboks, and giraffes. At Olifantsbad on the return, a family of seven elephants — two adults and five juveniles — crossed the road and made their way to the water to drink. We watched until the light began to fade and we had to leave. Driving after sunset is not permitted in the park.
 
 Dinner, then a final visit to the lodge waterhole: rhinos, hyenas, jackals, and giraffes. Two members of our group went further — setting an alarm to check the waterhole in the early hours, when they found elephants and a black rhino drinking alone in the dark."
-foto_capa: "https://res.cloudinary.com/o93anfqi/image/upload/v1792277496/IMG_1388.jpg"
+foto_capa: "https://res.cloudinary.com/o93anfqi/image/upload/v1792277493/IMG_1378.jpg"
 foto_destaque: ""
 video: "https://res.cloudinary.com/o93anfqi/video/upload/v1792277506/IMG_1293.mp4"
 video2: "https://res.cloudinary.com/o93anfqi/video/upload/v1792277515/IMG_1340.mp4"
