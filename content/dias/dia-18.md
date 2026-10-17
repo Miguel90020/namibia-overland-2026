@@ -9,7 +9,7 @@ We headed out again at four, revisiting three waterholes. The driving brought a 
 
 Dinner, then a final visit to the lodge waterhole: rhinos, hyenas, jackals, and giraffes. Two members of our group went further — setting an alarm to check the waterhole in the early hours, when they found elephants and a black rhino drinking alone in the dark."
 foto_capa: "https://res.cloudinary.com/o93anfqi/image/upload/v1792277493/IMG_1378.jpg"
-foto_destaque:"https://res.cloudinary.com/o93anfqi/image/upload/v1792277466/IMG_1309.jpg"
+foto_destaque: "https://res.cloudinary.com/o93anfqi/image/upload/v1792277466/IMG_1309.jpg"
 video: "https://res.cloudinary.com/o93anfqi/video/upload/v1792277506/IMG_1293.mp4"
 video2: "https://res.cloudinary.com/o93anfqi/video/upload/v1792277515/IMG_1340.mp4"
 galerias: ["https://res.cloudinary.com/o93anfqi/image/upload/v1792277460/IMG_1295.jpg","https://res.cloudinary.com/o93anfqi/image/upload/v1792277462/IMG_1303.jpg","https://res.cloudinary.com/o93anfqi/image/upload/v1792277469/IMG_1319.jpg","https://res.cloudinary.com/o93anfqi/image/upload/v1792277471/IMG_1332.jpg","https://res.cloudinary.com/o93anfqi/image/upload/v1792277476/IMG_1336.jpg","https://res.cloudinary.com/o93anfqi/image/upload/v1792277480/IMG_1353.jpg","https://res.cloudinary.com/o93anfqi/image/upload/v1792277484/IMG_1377.jpg","https://res.cloudinary.com/o93anfqi/image/upload/v1792277489/IMG_1381.jpg","https://res.cloudinary.com/o93anfqi/image/upload/v1792277496/IMG_1388.jpg"]
