@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import dynamic from 'next/dynamic'
+import { useState } from 'react'
 import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
@@ -66,7 +67,43 @@ function Label({ children }) {
   return <p style={{ fontSize: '0.7rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: 'var(--ochre)', marginBottom: '1.25rem' }}>{children}</p>
 }
 
+function Lightbox({ url, onClose }) {
+  if (!url) return null
+  return (
+    <div
+      onClick={onClose}
+      style={{
+        position: 'fixed', inset: 0, zIndex: 9999,
+        background: 'rgba(0,0,0,0.92)',
+        display: 'flex', alignItems: 'center', justifyContent: 'center',
+        cursor: 'zoom-out',
+      }}
+    >
+      <button
+        onClick={onClose}
+        style={{
+          position: 'absolute', top: '1.25rem', right: '1.5rem',
+          background: 'none', border: 'none', color: '#fff',
+          fontSize: '2rem', lineHeight: 1, cursor: 'pointer', opacity: 0.8,
+        }}
+        aria-label="Close"
+      >×</button>
+      <img
+        src={url}
+        onClick={e => e.stopPropagation()}
+        style={{
+          maxWidth: '92vw', maxHeight: '90vh',
+          objectFit: 'contain', borderRadius: '4px',
+          boxShadow: '0 8px 48px rgba(0,0,0,0.7)',
+          cursor: 'default',
+        }}
+      />
+    </div>
+  )
+}
+
 export default function DiaPage({ dia, anterior, proximo, frontmatter }) {
+  const [lightboxUrl, setLightboxUrl] = useState(null)
   const fotoCapa = frontmatter.foto_capa || null
   const fotoDestaque = frontmatter.foto_destaque || null
   const video = frontmatter.video || null
@@ -172,11 +209,18 @@ export default function DiaPage({ dia, anterior, proximo, frontmatter }) {
             <Label>Gallery</Label>
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))', gap: '4px' }}>
               {galerias.map((url, i) => (
-                <img key={i} src={url} alt={`${dia.titulo} ${i + 1}`} style={{ width: '100%', aspectRatio: '1', objectFit: 'cover', borderRadius: '2px' }} />
+                <img
+                  key={i}
+                  src={url}
+                  alt={`${dia.titulo} ${i + 1}`}
+                  onClick={() => setLightboxUrl(url)}
+                  style={{ width: '100%', aspectRatio: '1', objectFit: 'cover', borderRadius: '2px', cursor: 'zoom-in' }}
+                />
               ))}
             </div>
           </section>
         )}
+        <Lightbox url={lightboxUrl} onClose={() => setLightboxUrl(null)} />
 
         {dicas && (
           <section style={{ marginBottom: '4rem', background: 'var(--sand-dark)', padding: '2rem', borderRadius: '4px' }}>
