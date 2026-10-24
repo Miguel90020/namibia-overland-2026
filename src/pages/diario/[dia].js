@@ -193,14 +193,14 @@ export default function DiaPage({ dia, anterior, proximo, frontmatter }) {
         {video && (
           <section style={{ marginBottom: '4rem' }}>
             <Label>Video</Label>
-            <VideoPlayer url={video} />
+            <VideoPlayer key={video} url={video} />
           </section>
         )}
 
         {video2 && (
           <section style={{ marginBottom: '4rem' }}>
             <Label>Video</Label>
-            <VideoPlayer url={video2} />
+            <VideoPlayer key={video2} url={video2} />
           </section>
         )}
 
