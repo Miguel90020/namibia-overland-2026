@@ -99,3 +99,5 @@ Extraídos dos ficheiros KMZ originais. Prontos a usar.
 3. Aponta os DNS do domínio para o Netlify
 4. Aguarda 24-48h
 5. Zero alterações no código necessárias
+
+
