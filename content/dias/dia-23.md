@@ -4,10 +4,10 @@ resumo: "Our second-to-last day, and the last full day before flying back to Lis
 From there we walked through the city: the large Protestant church, one of the city’s main landmarks, and then the statues commemorating Namibian freedom and honouring the victims of the genocide carried out by German colonial forces in the early twentieth century. A short walk further and we came across an exhibition of meteorite fragments — pieces broken off the very rock we had visited earlier in the trip, now displayed in the city. That closed out Windhoek proper.
 
 Lunch was at Stellenbosch Wine Bar & Bistro, a little further out toward the suburbs, before heading back to the lodge. On the way we took a short detour through the park to look for wildlife and found wildebeest at close range — a fitting last encounter. Back at the lodge we had a couple of hours to rest before dinner at half past six, after which we packed for the following day and spent the remainder of the evening together. It felt, in every sense, like the last real day of the trip."
-foto_capa: ""
-foto_destaque: ""
+foto_capa: "https://res.cloudinary.com/o93anfqi/image/upload/v1792850354/IMG_1924.jpg"
+foto_destaque: "https://res.cloudinary.com/o93anfqi/image/upload/v1792850312/IMG_1898.jpg"
 video: ""
-galerias: []
+galerias: ["https://res.cloudinary.com/o93anfqi/image/upload/v1792850315/IMG_1909.jpg","https://res.cloudinary.com/o93anfqi/image/upload/v1792850319/IMG_1912.jpg","https://res.cloudinary.com/o93anfqi/image/upload/v1792850322/IMG_1913.jpg","https://res.cloudinary.com/o93anfqi/image/upload/v1792850325/IMG_1914.jpg","https://res.cloudinary.com/o93anfqi/image/upload/v1792850327/IMG_1915.jpg","https://res.cloudinary.com/o93anfqi/image/upload/v1792850339/IMG_1918.jpg"]
 sabias_que: "Between 1904 and 1908, German colonial forces carried out a systematic campaign of extermination against the Herero and Nama peoples of Namibia — widely recognised as one of the first genocides of the twentieth century. Tens of thousands were killed through direct violence, forced labour, and deliberate starvation. Germany formally acknowledged the genocide in 2021, more than a century later."
 dicas: "The Craft Centre in Windhoek is a good final stop for souvenirs — better value and more variety than airport shops. Stellenbosch Wine Bar & Bistro is a solid lunch option slightly outside the city centre, with gluten-free options available."
 animais: ""
