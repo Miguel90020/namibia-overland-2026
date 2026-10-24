@@ -4,7 +4,7 @@ resumo: "Our final morning began with departure from Daan Viljoen around nine, d
 We boarded at one for Luanda — two and a half hours, landing at half past two local time, half past three by the clock we had been living on. Then a long wait, the kind that airports do best, until 11:55 at night, when we boarded for Lisbon. We landed at 7:10 in the morning.
 
 Twenty-four days. Five people. Two cars. Roughly 5,000 kilometres of Namibian road, sand, salt, and gravel. Whatever we expected when we set off, it was not quite this — and we mean that in the best possible way."
-foto_capa: ""
+foto_capa: "https://res.cloudinary.com/o93anfqi/image/upload/v1792850480/IMG_1956.jpg"
 foto_destaque: ""
 video: ""
 galerias: []
