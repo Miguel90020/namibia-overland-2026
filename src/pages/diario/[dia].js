@@ -46,7 +46,7 @@ function VideoPlayer({ url }) {
   if (!url) return null
   if (url.includes('cloudinary.com')) {
     return (
-      <video controls playsInline style={{ width: '100%', borderRadius: '8px', display: 'block' }}>
+      <video controls playsInline poster={url.replace('/video/upload/', '/image/upload/').replace('.mp4', '.jpg')} style={{ width: '100%', borderRadius: '8px', display: 'block' }}>
         <source src={url} type="video/mp4" />
       </video>
     )
