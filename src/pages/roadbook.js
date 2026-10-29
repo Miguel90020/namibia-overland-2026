@@ -92,7 +92,7 @@ export default function Roadbook() {
             {
               icon: '◈',
               title: 'Budget & Costs',
-              body: 'Full budget breakdown: fuel estimate (€1 655–2 087 for two 4x4s), park permits, food and daily expenses — all converted to EUR at June 2026 rates.',
+              body: 'Full budget breakdown: fuel estimate, park permits, food and daily expenses — all converted to EUR at June 2026 rates.',
             },
             {
               icon: '◻',
