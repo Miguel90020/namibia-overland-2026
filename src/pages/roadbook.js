@@ -1,8 +1,42 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import Nav from '../components/Nav'
+import { useState } from 'react'
 
 export default function Roadbook() {
+  const [loading, setLoading] = useState(false)
+
+  async function handleBuy() {
+    setLoading(true)
+    try {
+      const res = await fetch('/api/checkout', { method: 'POST' })
+      const data = await res.json()
+      if (data.url) window.location.href = data.url
+    } catch (e) {
+      console.error(e)
+      setLoading(false)
+    }
+  }
+
+  const buyButton = (variant = 'primary') => (
+    <button
+      onClick={handleBuy}
+      disabled={loading}
+      style={{
+        display: 'inline-block', padding: '1rem 2.5rem',
+        background: variant === 'primary' ? 'var(--ochre)' : 'var(--earth)',
+        color: 'var(--white)',
+        fontSize: '0.85rem', letterSpacing: '0.12em',
+        textTransform: 'uppercase', borderRadius: '2px',
+        border: 'none', cursor: loading ? 'not-allowed' : 'pointer',
+        opacity: loading ? 0.7 : 1,
+        transition: 'background 0.2s',
+      }}
+    >
+      {loading ? 'Redirecting…' : 'Download — €20'}
+    </button>
+  )
+
   return (
     <>
       <Head>
@@ -45,20 +79,7 @@ export default function Roadbook() {
           }}>
             76 pages. 4 000 km. Every track, camp and waypoint<br />from the Kalahari to the Waterberg.
           </p>
-          <a
-            href="https://gum.co/namibia-2026-roadbook"
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{
-              display: 'inline-block', padding: '1rem 2.5rem',
-              background: 'var(--ochre)', color: 'var(--white)',
-              fontSize: '0.85rem', letterSpacing: '0.12em',
-              textTransform: 'uppercase', borderRadius: '2px',
-              transition: 'background 0.2s',
-            }}
-          >
-            Download — €20
-          </a>
+          {buyButton('primary')}
         </div>
       </section>
 
@@ -92,7 +113,7 @@ export default function Roadbook() {
             {
               icon: '◈',
               title: 'Budget & Costs',
-              body: 'Full budget breakdown: fuel estimate, park permits, food and daily expenses — all converted to EUR at June 2026 rates.',
+              body: 'Full cost breakdown for the trip — fuel, park permits, food and daily expenses — with approximate values in EUR. No surprises on the road.',
             },
             {
               icon: '◻',
@@ -155,7 +176,7 @@ export default function Roadbook() {
         </p>
       </section>
 
-      {/* CTA final — two pricing options */}
+      {/* CTA final */}
       <section style={{
         background: 'var(--sand)',
         padding: '6rem 2rem',
@@ -175,25 +196,12 @@ export default function Roadbook() {
           One payment. No subscription. Yours forever.
         </p>
 
-        {/* CTA + discount note */}
         <div style={{ maxWidth: '420px', margin: '0 auto' }}>
-          <a
-            href="https://gum.co/namibia-2026-roadbook"
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{
-              display: 'inline-block', padding: '1rem 2.5rem',
-              background: 'var(--earth)', color: 'var(--white)',
-              fontSize: '0.85rem', letterSpacing: '0.12em',
-              textTransform: 'uppercase', borderRadius: '2px',
-            }}
-          >
-            Download — €20
-          </a>
+          {buyButton('secondary')}
         </div>
 
         <p style={{ marginTop: '2rem', fontSize: '0.8rem', color: 'var(--grey)' }}>
-          Secure payment via Gumroad
+          Secure payment via Stripe
         </p>
       </section>
     </>
