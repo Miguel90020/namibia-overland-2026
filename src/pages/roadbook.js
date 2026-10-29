@@ -7,10 +7,10 @@ export default function Roadbook() {
     <>
       <Head>
         <title>Namibia 2026 Roadbook — Far Gravel</title>
-        <meta name="description" content="76 pages. 4000 km. Every track, camp and waypoint from the Kalahari to Etosha — the complete self-drive guide to southwest Namibia." />
+        <meta name="description" content="76 pages. 4 000 km. 24 days. 4 main maps, daily mini-maps, a full packing checklist, budget breakdown and every waypoint from the Kalahari to the Waterberg." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta property="og:title" content="Namibia 2026 Roadbook — Far Gravel" />
-        <meta property="og:description" content="76 pages. 4000 km. Every track, camp and waypoint from the Kalahari to Etosha." />
+        <meta property="og:description" content="76 pages. 4 000 km. 24 days. The complete self-drive guide to Namibia." />
         <meta property="og:type" content="website" />
         <link rel="icon" href="/favicon.svg" />
       </Head>
@@ -43,7 +43,7 @@ export default function Roadbook() {
             fontSize: 'clamp(1rem, 2vw, 1.2rem)',
             color: 'var(--sand)', marginBottom: '3rem', lineHeight: 1.7,
           }}>
-            76 pages. Every track, camp and waypoint<br />from the Kalahari to Etosha.
+            76 pages. 4 000 km. Every track, camp and waypoint<br />from the Kalahari to the Waterberg.
           </p>
           <a
             href="https://gum.co/namibia-2026-roadbook"
@@ -67,19 +67,38 @@ export default function Roadbook() {
         <h2 style={{
           fontFamily: 'var(--font-display)',
           fontSize: 'clamp(1.6rem, 3vw, 2.2rem)',
-          color: 'var(--earth)', marginBottom: '2rem', textAlign: 'center',
+          color: 'var(--earth)', marginBottom: '1rem', textAlign: 'center',
         }}>
           What's inside
         </h2>
+        <p style={{ textAlign: 'center', color: 'var(--grey)', fontSize: '0.95rem', marginBottom: '3.5rem' }}>
+          A crossing from the Kalahari to the Waterberg — designed for two 4x4s, five people, 24 days.
+        </p>
         <div style={{
           display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))',
-          gap: '2.5rem', marginTop: '3rem',
+          gap: '2.5rem',
         }}>
           {[
-            { icon: '⟁', title: 'Route & Tracks', body: '4 000 km of route broken into daily stages — tarmac, gravel and sand — with GPS waypoints and turn-by-turn guidance.' },
-            { icon: '⌾', title: 'Camps & Lodges', body: 'Every overnight stop we used: coordinates, booking notes, what to expect. From luxury lodges to wild bush camps.' },
-            { icon: '◈', title: 'Wildlife Strategy', body: 'When and where to stop for the best sightings — Etosha, Damaraland, the desert-adapted elephants of Huab.' },
-            { icon: '◻', title: 'Practical Notes', body: 'Fuel stops, border crossings, vehicle requirements, emergency contacts and useful Oshiwambo phrases.' },
+            {
+              icon: '⟁',
+              title: 'Route & Maps',
+              body: 'A mini-map for every driving day, with GPS waypoints listed in order, departure times and distance per stage. Essential navigation without the noise.',
+            },
+            {
+              icon: '⌾',
+              title: 'Camps & Lodges',
+              body: '13 base camps, from luxury lodges to wild bush camps. Coordinates, booking notes, board basis and what to expect at each overnight stop.',
+            },
+            {
+              icon: '◈',
+              title: 'Budget & Costs',
+              body: 'Full budget breakdown: fuel estimate (€1 655–2 087 for two 4x4s), park permits, food and daily expenses — all converted to EUR at June 2026 rates.',
+            },
+            {
+              icon: '◻',
+              title: 'Checklists & Logistics',
+              body: 'Packing checklist per person, first supermarket shop, fuel and meals reference, useful Afrikaans phrases, and emergency contacts for the whole route.',
+            },
           ].map(item => (
             <div key={item.title} style={{ padding: '0.5rem 0' }}>
               <div style={{
@@ -110,7 +129,7 @@ export default function Roadbook() {
             { n: '76', label: 'pages' },
             { n: '4 000 km', label: 'of route' },
             { n: '24', label: 'days' },
-            { n: '40+', label: 'waypoints' },
+            { n: '24', label: 'daily maps' },
           ].map(s => (
             <div key={s.label} style={{ textAlign: 'center' }}>
               <div style={{ fontFamily: 'var(--font-display)', fontSize: '2rem', color: 'var(--ochre)', lineHeight: 1 }}>{s.n}</div>
@@ -136,7 +155,7 @@ export default function Roadbook() {
         </p>
       </section>
 
-      {/* CTA final */}
+      {/* CTA final — two pricing options */}
       <section style={{
         background: 'var(--sand)',
         padding: '6rem 2rem',
@@ -152,23 +171,28 @@ export default function Roadbook() {
         }}>
           Ready to plan your expedition?
         </h2>
-        <p style={{ color: 'var(--grey)', marginBottom: '2.5rem', fontSize: '1rem' }}>
+        <p style={{ color: 'var(--grey)', marginBottom: '3.5rem', fontSize: '1rem', maxWidth: '480px', margin: '0 auto 3.5rem' }}>
           One payment. No subscription. Yours forever.
         </p>
-        <a
-          href="https://gum.co/namibia-2026-roadbook"
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{
-            display: 'inline-block', padding: '1rem 2.5rem',
-            background: 'var(--earth)', color: 'var(--white)',
-            fontSize: '0.85rem', letterSpacing: '0.12em',
-            textTransform: 'uppercase', borderRadius: '2px',
-          }}
-        >
-          Download — €20
-        </a>
-        <p style={{ marginTop: '1.5rem', fontSize: '0.8rem', color: 'var(--grey)' }}>
+
+        {/* CTA + discount note */}
+        <div style={{ maxWidth: '420px', margin: '0 auto' }}>
+          <a
+            href="https://gum.co/namibia-2026-roadbook"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              display: 'inline-block', padding: '1rem 2.5rem',
+              background: 'var(--earth)', color: 'var(--white)',
+              fontSize: '0.85rem', letterSpacing: '0.12em',
+              textTransform: 'uppercase', borderRadius: '2px',
+            }}
+          >
+            Download — €20
+          </a>
+        </div>
+
+        <p style={{ marginTop: '2rem', fontSize: '0.8rem', color: 'var(--grey)' }}>
           Secure payment via Gumroad
         </p>
       </section>
