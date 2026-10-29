@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160">
+  <circle cx="80" cy="80" r="80" fill="#1A1208"/>
+  <circle cx="80" cy="80" r="74" fill="none" stroke="#F5EDD6" stroke-width="2"/>
+  <circle cx="80" cy="80" r="66" fill="none" stroke="#C8863A" stroke-width="0.8" opacity="0.4"/>
+  <line x1="80" y1="6" x2="80" y2="14" stroke="#C8863A" stroke-width="2"/>
+  <line x1="80" y1="146" x2="80" y2="154" stroke="#C8863A" stroke-width="2"/>
+  <line x1="6" y1="80" x2="14" y2="80" stroke="#C8863A" stroke-width="2"/>
+  <line x1="146" y1="80" x2="154" y2="80" stroke="#C8863A" stroke-width="2"/>
+  <line x1="27.7" y1="27.7" x2="33" y2="33" stroke="#F5EDD6" stroke-width="1" opacity="0.3"/>
+  <line x1="132.3" y1="27.7" x2="127" y2="33" stroke="#F5EDD6" stroke-width="1" opacity="0.3"/>
+  <line x1="27.7" y1="132.3" x2="33" y2="127" stroke="#F5EDD6" stroke-width="1" opacity="0.3"/>
+  <line x1="132.3" y1="132.3" x2="127" y2="127" stroke="#F5EDD6" stroke-width="1" opacity="0.3"/>
+  <polygon points="80,38 83.5,76 80,70 76.5,76" fill="#C8863A"/>
+  <polygon points="80,122 83.5,84 80,90 76.5,84" fill="#F5EDD6" opacity="0.5"/>
+  <circle cx="80" cy="80" r="3.5" fill="#C8863A"/>
+  <text font-family="Georgia,serif" font-weight="700" font-size="12" letter-spacing="3.5" fill="#F5EDD6" text-anchor="middle">
+    <textPath href="#topArc" startOffset="50%">FAR GRAVEL</textPath>
+  </text>
+  <text font-family="Georgia,serif" font-weight="400" font-size="10" letter-spacing="4" fill="#C8863A" text-anchor="middle" font-style="italic">
+    <textPath href="#bottomArc" startOffset="50%">OVERLAND</textPath>
+  </text>
+  <defs>
+    <path id="topArc" d="M 34,80 A 46,46 0 0,1 126,80"/>
+    <path id="bottomArc" d="M 36,98 A 46,46 0 0,0 124,98"/>
+  </defs>
+</svg>
