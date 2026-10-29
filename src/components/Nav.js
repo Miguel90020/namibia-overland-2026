@@ -11,8 +11,13 @@ export default function Nav() {
         backdropFilter: 'blur(12px)',
         borderBottom: '1px solid var(--grey-light)',
       }}>
-        <Link href="/" style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
-          <img src="/logo-fargravel.svg" alt="Far Gravel" style={{ height: '36px', width: 'auto' }} />
+        <Link href="/" style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', textDecoration: 'none' }}>
+          <span style={{
+            fontFamily: 'var(--font-display)',
+            fontSize: '0.85rem', letterSpacing: '0.2em',
+            textTransform: 'uppercase', color: 'var(--earth)',
+            fontWeight: 400,
+          }}>Far Gravel</span>
         </Link>
         <div style={{ display: 'flex', gap: '2rem' }}>
           {[['Diary', '/diario'], ['Map', '/mapa'], ['Roadbook', '/roadbook'], ['About', '/sobre']].map(([label, href]) => (

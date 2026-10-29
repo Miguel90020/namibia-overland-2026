@@ -25,6 +25,11 @@ export default function Home() {
       }}>
         <div style={{ position: 'absolute', inset: 0, background: 'url(/images/hero.jpg) center/cover no-repeat', opacity: 0.4 }} />
         <div style={{ position: 'relative', zIndex: 1, maxWidth: '700px' }}>
+          <img
+            src="/logo-fargravel.svg"
+            alt="Far Gravel"
+            style={{ width: '110px', height: '110px', marginBottom: '2rem', display: 'block', margin: '0 auto 2rem' }}
+          />
           <p style={{ fontSize: '0.8rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: 'var(--ochre)', marginBottom: '1.5rem' }}>
             July · August 2026
           </p>
