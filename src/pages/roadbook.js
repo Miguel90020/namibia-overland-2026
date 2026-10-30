@@ -33,7 +33,7 @@ export default function Roadbook() {
         transition: 'background 0.2s',
       }}
     >
-      {loading ? 'Redirecting…' : 'Download — €20'}
+      {loading ? 'Redirecting…' : 'Download — €10'}
     </button>
   )
 
