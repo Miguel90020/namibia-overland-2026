@@ -9,6 +9,7 @@
     "export": "next build && next export"
   },
   "dependencies": {
+    "@next/third-parties": "^16.4.5",
     "gray-matter": "^4.0.3",
     "leaflet": "^1.9.4",
     "next": "14.2.0",
