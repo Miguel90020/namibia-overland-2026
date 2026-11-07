@@ -53,12 +53,12 @@ export default function Home() {
               </div>
             ))}
           </div>
-          <Link href="/diario" style={{
+          <Link href="/roadbook" style={{
             display: 'inline-block', padding: '1rem 2.5rem', background: 'var(--ochre)',
             color: 'var(--white)', fontSize: '0.85rem', letterSpacing: '0.12em',
             textTransform: 'uppercase', borderRadius: '2px',
           }}>
-            Begin the Journey
+            Plan Your Own Trip
           </Link>
         </div>
       </section>
