@@ -247,6 +247,27 @@ export default function DiaPage({ dia, anterior, proximo, frontmatter }) {
           </section>
         )}
 
+        <section style={{
+          margin: '0 0 3rem 0',
+          padding: '2rem',
+          background: 'var(--night-soft)',
+          borderLeft: '3px solid var(--ochre)',
+          borderRadius: '2px',
+        }}>
+          <p style={{ fontSize: '0.7rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: 'var(--ochre)', marginBottom: '0.75rem' }}>
+            Planning your own Namibia trip?
+          </p>
+          <p style={{ fontFamily: 'var(--font-display)', fontSize: '1.05rem', color: 'var(--sand)', lineHeight: 1.7, marginBottom: '1.25rem' }}>
+            The full route, every camp, the budget breakdown and all the checklists — compiled into a 76-page roadbook.
+          </p>
+          <Link href="/roadbook" style={{
+            fontSize: '0.8rem', letterSpacing: '0.12em', textTransform: 'uppercase',
+            color: 'var(--ochre)', borderBottom: '1px solid var(--ochre)', paddingBottom: '2px',
+          }}>
+            Get the Roadbook — €10 →
+          </Link>
+        </section>
+
         <nav style={{ display: 'flex', justifyContent: 'space-between', gap: '1rem', paddingTop: '2rem', borderTop: '1px solid var(--grey-light)' }}>
           {anterior
             ? <Link href={`/diario/dia-${String(anterior.numero).padStart(2, '0')}`} style={{ color: 'var(--grey)', fontSize: '0.85rem' }}>Day {anterior.numero}</Link>
