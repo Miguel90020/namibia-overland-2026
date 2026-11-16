@@ -58,7 +58,7 @@ export default function Home() {
             color: 'var(--white)', fontSize: '0.85rem', letterSpacing: '0.12em',
             textTransform: 'uppercase', borderRadius: '2px',
           }}>
-            Plan Your Own Trip
+            Read the diary
           </Link>
         </div>
       </section>
@@ -70,7 +70,7 @@ export default function Home() {
           From the Kalahari to the dunes of Sossusvlei, from Lüderitz to the heart of Etosha — 24 days of family expedition through southwest Africa.
         </p>
         <Link href="/diario" style={{ fontSize: '0.85rem', letterSpacing: '0.1em', textTransform: 'uppercase', color: 'var(--ochre)', borderBottom: '1px solid var(--ochre)', paddingBottom: '2px' }}>
-          Read the Diary →
+          Plan your own trip →
         </Link>
       </section>
     </>
