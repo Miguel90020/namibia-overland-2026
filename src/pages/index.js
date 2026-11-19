@@ -53,12 +53,12 @@ export default function Home() {
               </div>
             ))}
           </div>
-          <Link href="/roadbook" style={{
+          <Link href="/diario" style={{
             display: 'inline-block', padding: '1rem 2.5rem', background: 'var(--ochre)',
             color: 'var(--white)', fontSize: '0.85rem', letterSpacing: '0.12em',
             textTransform: 'uppercase', borderRadius: '2px',
           }}>
-            Read the diary
+            Read the Diary
           </Link>
         </div>
       </section>
@@ -69,7 +69,7 @@ export default function Home() {
         <p style={{ color: 'var(--grey)', fontSize: '1.05rem', maxWidth: '560px', margin: '0 auto 2.5rem', lineHeight: 2 }}>
           From the Kalahari to the dunes of Sossusvlei, from Lüderitz to the heart of Etosha — 24 days of family expedition through southwest Africa.
         </p>
-        <Link href="/diario" style={{ fontSize: '0.85rem', letterSpacing: '0.1em', textTransform: 'uppercase', color: 'var(--ochre)', borderBottom: '1px solid var(--ochre)', paddingBottom: '2px' }}>
+        <Link href="/roadbook" style={{ fontSize: '0.85rem', letterSpacing: '0.1em', textTransform: 'uppercase', color: 'var(--ochre)', borderBottom: '1px solid var(--ochre)', paddingBottom: '2px' }}>
           Plan your own trip →
         </Link>
       </section>
