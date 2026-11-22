@@ -92,6 +92,8 @@ export default function Roadbook() {
               width: '100%', maxWidth: '480px',
               borderRadius: '4px',
               boxShadow: '0 8px 40px rgba(0,0,0,0.5)',
+              display: 'block',
+              margin: '0 auto',
             }}
           />
         </div>
