@@ -75,16 +75,57 @@ export default function Roadbook() {
           <p style={{
             fontFamily: 'var(--font-display)', fontStyle: 'italic',
             fontSize: 'clamp(1rem, 2vw, 1.2rem)',
-            color: 'var(--sand)', marginBottom: '3rem', lineHeight: 1.7,
+            color: 'var(--sand)', marginBottom: '2rem', lineHeight: 1.7,
           }}>
             76 pages. 4 000 km. Every track, camp and waypoint<br />from the Kalahari to the Waterberg.
           </p>
-          {buyButton('primary')}
+          <p style={{
+            fontSize: '0.95rem',
+            color: 'var(--grey-light)', marginBottom: '3rem', lineHeight: 1.7,
+          }}>
+            We spent 10 months planning this trip. This is everything we wish we'd had.
+          </p>
+          <img
+            src="/images/roadbook-cover.png"
+            alt="Namibia 2026 Roadbook cover"
+            style={{
+              width: '100%', maxWidth: '480px',
+              borderRadius: '4px',
+              boxShadow: '0 8px 40px rgba(0,0,0,0.5)',
+            }}
+          />
         </div>
       </section>
 
+      {/* Page preview */}
+      <section style={{ maxWidth: 'var(--content-width)', margin: '0 auto', padding: '6rem 2rem 2rem', textAlign: 'center' }}>
+        <p style={{ fontSize: '0.75rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: 'var(--ochre)', marginBottom: '1rem' }}>
+          Inside the roadbook
+        </p>
+        <h2 style={{
+          fontFamily: 'var(--font-display)',
+          fontSize: 'clamp(1.4rem, 2.5vw, 1.9rem)',
+          color: 'var(--earth)', marginBottom: '2rem',
+        }}>
+          Every day, fully planned.
+        </h2>
+        <img
+          src="/images/roadbook-preview.jpg"
+          alt="Day 10 — Sossusvlei, page from the roadbook"
+          style={{
+            width: '100%', maxWidth: '860px',
+            borderRadius: '4px',
+            boxShadow: '0 4px 24px rgba(0,0,0,0.15)',
+            border: '1px solid var(--night-soft)',
+          }}
+        />
+        <p style={{ marginTop: '1rem', fontSize: '0.8rem', color: 'var(--grey)', fontStyle: 'italic' }}>
+          Day 10 — Sossusvlei & Deadvlei
+        </p>
+      </section>
+
       {/* What's inside */}
-      <section style={{ maxWidth: 'var(--content-width)', margin: '0 auto', padding: '7rem 2rem' }}>
+      <section style={{ maxWidth: 'var(--content-width)', margin: '0 auto', padding: '5rem 2rem 7rem' }}>
         <h2 style={{
           fontFamily: 'var(--font-display)',
           fontSize: 'clamp(1.6rem, 3vw, 2.2rem)',
