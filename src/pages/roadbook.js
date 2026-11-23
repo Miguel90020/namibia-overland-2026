@@ -244,6 +244,10 @@ export default function Roadbook() {
           One payment. No subscription. Yours forever.
         </p>
 
+        <p style={{ fontSize: '0.85rem', color: 'var(--grey)', marginBottom: '1.5rem' }}>
+          ⬇ Downloaded by 50+ overlanders
+        </p>
+
         <div style={{ maxWidth: '420px', margin: '0 auto' }}>
           {buyButton('secondary')}
         </div>
