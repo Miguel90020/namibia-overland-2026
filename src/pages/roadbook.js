@@ -257,5 +257,8 @@ export default function Roadbook() {
         </p>
       </section>
     </>
+      <p style={{ marginTop: '1rem', fontSize: '0.8rem', color: 'var(--grey)' }}>
+        Questions? <a href="mailto:fargravel.contact@gmail.com" style={{ color: 'var(--ochre)', textDecoration: 'none' }}>hello@fargravel.com</a>
+      </p>
   )
 }
