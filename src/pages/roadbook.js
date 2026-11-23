@@ -255,10 +255,11 @@ export default function Roadbook() {
         <p style={{ marginTop: '2rem', fontSize: '0.8rem', color: 'var(--grey)' }}>
           Secure payment via Stripe
         </p>
+            
+        <p style={{ marginTop: '1rem', fontSize: '0.8rem', color: 'var(--grey)' }}>
+          Questions? <a href="mailto:fargravel.contact@gmail.com" style={{ color: 'var(--ochre)', textDecoration: 'none' }}>hello@fargravel.com</a>
+        </p>
       </section>
     </>
-      <p style={{ marginTop: '1rem', fontSize: '0.8rem', color: 'var(--grey)' }}>
-        Questions? <a href="mailto:fargravel.contact@gmail.com" style={{ color: 'var(--ochre)', textDecoration: 'none' }}>hello@fargravel.com</a>
-      </p>
   )
 }
